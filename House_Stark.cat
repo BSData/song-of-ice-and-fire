@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a322-01e2-e5f9-fab4" name="House Stark" revision="1" battleScribeVersion="2.01" authorName="Lucas Massa - The Lord of the Miniatures" authorContact="lsmassa@gmail.com" authorUrl="https://www.facebook.com/thelordoftheminiatures/" gameSystemId="2264-d446-544f-f0ab" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a322-01e2-e5f9-fab4" name="House Stark" revision="2" battleScribeVersion="2.01" authorName="Lucas Massa - The Lord of the Miniatures" authorContact="lsmassa@gmail.com" authorUrl="https://www.facebook.com/thelordoftheminiatures/" gameSystemId="2264-d446-544f-f0ab" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -302,6 +302,14 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4269-9d5c-9908-1eb1" type="max"/>
       </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="933a-644e-31c6-6bb9" name="Brynden Tully - Vanguard Infiltrator" hidden="false" targetId="810f-5cdb-a940-df47" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
       <categoryLinks/>
     </entryLink>
   </entryLinks>
@@ -1612,6 +1620,65 @@
       <entryLinks/>
       <costs>
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="810f-5cdb-a940-df47" name="Brynden Tully - Vanguard Infiltrator" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3db6-91cd-2e9f-7a49" name="Pathfinder" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;No one knows the lands of the North quite as well as Brynden.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit gains [+1] [SPEED] and ignores the Dangerous and Hindering keywords of terrain pieces."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Cavalry"/>
+          </characteristics>
+        </profile>
+        <profile id="39cf-949c-3c5f-9fd9" name="Outflank" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;No one knows the lands of the North quite as well as Brynden.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="You may hold 1 unit of Stark Outriders off the table during deployment. At the start of any round, you may deploy that unit within Short Range of any table edge that is not within an enemy Deploy ZOne (this is not their activation)."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Cavalry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a1e0-bdf3-eae4-8e37" name="New CategoryLink" hidden="false" targetId="ea8e-f716-950b-84c2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="57ce-f628-f26c-089a" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e6bd-a707-3994-0f79" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

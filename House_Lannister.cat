@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f8ae-c5a8-459f-437a" name="House Lannister" revision="1" battleScribeVersion="2.01" authorName="Lucas Massa - The Lord of the Miniatures" authorContact="lsmassa@gmail.com" authorUrl="https://www.facebook.com/thelordoftheminiatures/" gameSystemId="2264-d446-544f-f0ab" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f8ae-c5a8-459f-437a" name="House Lannister" revision="2" battleScribeVersion="2.01" authorName="Lucas Massa - The Lord of the Miniatures" authorContact="lsmassa@gmail.com" authorUrl="https://www.facebook.com/thelordoftheminiatures/" gameSystemId="2264-d446-544f-f0ab" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -240,6 +240,22 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d360-62c0-ac55-647e" type="max"/>
       </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="dd26-d895-5067-428b" name="Ser Gregor Clegane - Mounted Behemoth" hidden="false" targetId="8e79-a259-262f-87a7" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d1be-29d2-8e48-916b" name="Gregor Clegane - The Mountain That Rides" hidden="false" targetId="c27f-f0ef-7286-1c26" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
       <categoryLinks/>
     </entryLink>
   </entryLinks>
@@ -1290,6 +1306,154 @@
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8e79-a259-262f-87a7" name="Ser Gregor Clegane - Mounted Behemoth" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="5a4f-8bb8-2e67-c73f" name="Unstoppable Fury" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;That beast&apos;s head would make a noble gift for all the people of the realm, I vow.&quot; - Brynden Tully"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Each time this unit attacks with melee, it deals D3 additional automatic wounds."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Cavalry"/>
+          </characteristics>
+        </profile>
+        <profile id="cd04-3108-1eab-2891" name="Overrun" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;That beast&apos;s head would make a noble gift for all the people of the realm, I vow.&quot; - Brynden Tully"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Order: When this unit destroys an enemy, it may perform 1 free Charge action instead of a Maneuver action."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Cavalry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5932-522c-a655-64cb" name="New CategoryLink" hidden="false" targetId="ea8e-f716-950b-84c2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2173-663c-a4cc-25b4" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5a3c-c8fc-7b41-4590" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c27f-f0ef-7286-1c26" name="Gregor Clegane - The Mountain That Rides" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ea6b-006e-ce44-cfbe" name="Gregor Clegane - The Mountain That Rides" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="2+"/>
+            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="bec3-5b22-d3fd-b2ab" name="Greatsword" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="4"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="-"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="-"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d44d-905f-4056-8539" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Ser Gregor Clegane truly towers over ordinary men. Such a massive man requires a mount of similar proportions, though the largest of steeds appear as mere ponies beneath the Mountain That Rides. Units under the Mountain&apos;s command hit like an avalanche, and leave similar destruction in their wake. The Mountain is an utterly merciless opponent, a true weapon of muscle and steel.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b278-20d6-c097-cd5d" name="Greatsword" hidden="false" targetId="8021-4b67-1762-4d93" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0e0b-9a33-b2b2-550e" name="Swift Advance" hidden="false" targetId="f4d1-1bee-0d6b-7291" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="876b-c3bb-1ad6-dd65" name="Wounds [4]" hidden="false" targetId="af7c-8f43-50c6-3718" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6cfa-b84d-acad-5a37" name="New CategoryLink" hidden="false" targetId="ea8e-f716-950b-84c2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9efc-a208-a47b-0a75" name="New CategoryLink" hidden="false" targetId="046c-b849-cb68-2b74" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9977-21c7-40db-4aa0" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -1365,6 +1529,22 @@
       <modifiers/>
       <description>- Long Range
 - Sundering (Enemies suffer [-1] to Defense Saves).</description>
+    </rule>
+    <rule id="8021-4b67-1762-4d93" name="Greatsword" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>- Critical Blow (Rolls of [6] deal 2 Hits).
+- Enemies do not get Defense Saves against this attack.
+- Rolls [+2] dice on charge attacks.</description>
+    </rule>
+    <rule id="af7c-8f43-50c6-3718" name="Wounds [4]" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit may suffer [4] wounds before being killed.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>

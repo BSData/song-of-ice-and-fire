@@ -283,6 +283,14 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
+    <entryLink id="ab61-f047-f9ae-2288" name="Brienne - Maiden fo Tarth" hidden="false" targetId="9397-5e0a-323b-772c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="9209-90d9-c752-1843" name="Petyr Baelish - Littlefinger" hidden="false" collective="false" type="model">
@@ -959,6 +967,58 @@
       <entryLinks/>
       <costs>
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9397-5e0a-323b-772c" name="Brienne - Maiden fo Tarth" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ac62-c4d6-6ce1-7070" name="Knightly Valor" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;A true knight is sworn to protect those who are weaker than himself, or die in the attempt.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="If you control [COMBAT], this unit may re-roll its charge distance die, and any Misses with melee attacks."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="ddd9-be39-e028-feb6" name="Unwavering Resolve" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;A true knight is sworn to protect those who are weaker than himself, or die in the attempt.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit never suffers penalties to its Morale."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b981-dc4d-91b6-6d58" name="New CategoryLink" hidden="false" targetId="bebb-415e-f8a1-2190" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6517-1d74-fe55-3b86" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
