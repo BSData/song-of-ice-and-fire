@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f8ae-c5a8-459f-437a" name="House Lannister" revision="1" battleScribeVersion="2.01" authorName="Lucas Massa - The Lord of the Miniatures" authorContact="lsmassa@gmail.com" authorUrl="https://www.facebook.com/thelordoftheminiatures/" gameSystemId="2264-d446-544f-f0ab" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries>
+    <categoryEntry id="88a7-8170-8a56-3e24" name="Jaime" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8e03-4c88-e1f6-55ec" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="12bd-9dd4-d317-0438" name="House Lannister" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="7065-afe9-e28c-3335" name="Cavalry" hidden="false" targetId="ea8e-f716-950b-84c2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3caa-c5ec-545b-9edf" name="Infantry" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="df35-4295-7fa1-fd08" name="NCU" hidden="false" targetId="9c52-387e-c59a-a747" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="81c5-c9e7-6c9a-9509" name="Attachment Card" hidden="false" targetId="2460-6433-340e-5689" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c8ee-4699-5209-2dfd" name="Captain" hidden="false" targetId="2541-1bd5-5d40-1192" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="d743-0d99-7006-67c9" name="Knights of Casterly Rock" hidden="false" targetId="b842-189d-a02d-9626" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4cec-71bb-cc6e-ac66" name="Lannister Guards" hidden="false" targetId="0ca3-de68-5970-5bd2" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8858-073e-5021-90a6" name="Lannister Halberdiers" hidden="false" targetId="0f24-0484-d3e5-858a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="252e-1b19-ef8a-71b1" name="The Mountain&apos;s Men" hidden="false" targetId="afe5-a5a6-1759-606d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1927-d0b1-96dd-029f" name="Cersei Lannister - Queen Regent" hidden="false" targetId="ae0f-95b8-3eaf-b79f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f61c-f3cf-9185-ac8d" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c8cf-5818-1dc3-e0e2" name="The High Sparrow" hidden="false" targetId="da23-29ab-3ad2-fcfe" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b8c3-9df6-d254-8d38" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="bd6a-6283-a3de-febf" name="Tyrion Lannister - The Imp" hidden="false" targetId="c230-a7af-3c02-7457" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4c55-badf-eef7-46cd" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2943-1421-2d51-8ecb" name="Tywin Lannister - The Great Lion" hidden="false" targetId="9c1c-c50c-a915-4298" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4958-dfa5-387a-6959" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="dd25-7bb8-a582-8d6e" name="Assault Veteran" hidden="false" targetId="eb61-d8ee-bb5a-eb4d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5444-8c0e-150b-29bc" name="Guard Captain" hidden="false" targetId="fab5-841e-87a8-2728" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="86b6-0c06-276d-8b08" name="Sandor Clegane - The Hound" hidden="false" targetId="9a6d-9780-747f-fa58" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2201-7551-9e68-b105" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c050-1127-373f-b64d" name="Ser Gregor Clegane - Lord Tywin&apos;s Mad Dog" hidden="false" targetId="f3ee-391c-3736-6a50" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e4ff-7d0b-e1ee-5519" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a876-e171-221a-3723" name="Ser Gregor Clegane - The Mountain" hidden="false" targetId="8967-3885-9024-8e22" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="313c-aadd-63af-efc4" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1ece-598b-09ca-b103" name="Ser Jaime Lannister - The Kingslayer" hidden="false" targetId="ca2d-92a6-6e4e-28a5" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eeca-31e5-dbc1-2423" type="max"/>
+        <constraint field="b577-9152-be95-5bbf" scope="88a7-8170-8a56-3e24" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="53ff-7141-2d64-0bfa" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="38ea-0411-d161-f50b" name="Tywin Lannister - Lord of Casterly Rock" hidden="false" targetId="37e2-35e0-e85f-46ae" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="58f1-6bb9-b0ff-c2ea" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9a54-b8bc-9562-8ad6" name="Ser Jaime Lannister - The Young Lion" hidden="false" targetId="7d56-5391-f4ed-ecb1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ba33-4cdb-309a-f67a" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="009c-e751-d1af-c11b" name="Lannister Crossbowmen" hidden="false" targetId="d200-fe67-989b-c3d7" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2a58-b933-994a-2624" name="Tyrion Lannister - Halfman" hidden="false" targetId="d89c-d592-f8d0-4e18" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="80f6-fe79-fe0b-999b" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5ae6-95e1-9a6b-504a" name="Pycelle - Grand Maester" hidden="false" targetId="379f-2f77-67fd-6da0" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d360-62c0-ac55-647e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="b842-189d-a02d-9626" name="Knights of Casterly Rock" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="93d7-2065-3a1f-5ab2" name="Knights of Casterly Rock" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5&quot;"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="3+"/>
+            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="2"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="6+"/>
+          </characteristics>
+        </profile>
+        <profile id="f153-142a-5877-a5ff" name="Lance" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="8"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="5"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="-"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ece8-b58a-2590-e0a2" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Expensively armed, expensively armored, and trained to perfection, the Knights of Casterly rock bring unparalleled speed and lethality to the Lion banner. Few enemies are equipped to withstand a charge from these heavily armored juggernauts, and fewer still match their speed. While they can be bogged down in melee against determined infantry, few commanders let them remain so encumbered for long.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3078-6b0b-73c6-30e1" name="Dominance of the Crown" hidden="false" targetId="4a3b-ab25-5144-aad7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="038d-ba17-5088-c76e" name="Lance" hidden="false" targetId="757a-979c-fe78-aac5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="766a-aa7c-d092-8075" name="Swift Advance" hidden="false" targetId="f4d1-1bee-0d6b-7291" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bdb4-f40c-0eb1-f7a4" name="New CategoryLink" hidden="false" targetId="ea8e-f716-950b-84c2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c44a-fb3c-e46d-0ff7" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ca3-de68-5970-5bd2" name="Lannister Guards" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="5e56-2144-ae07-65af" name="Lannister Guards" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="4&quot;"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="3+"/>
+            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="8+"/>
+          </characteristics>
+        </profile>
+        <profile id="bd03-edfd-dcf5-462b" name="Longsword" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="6"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="5"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="3"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="4+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0f68-cf6f-70e4-2af2" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The world over knows the extent of Lannister wealth, and its influence extends to even their most basic foot soldiers. The rank-and-file Lannister forces enjoy a battlefield superiority borne of strong armor, heavy metal shields, and the sense of invulnerability that goes with it. Most enemies of House Lannister prove incapable of even making a dent in such stalwart lines.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="896a-ea1d-30df-d6b0" name="Lannister Supremacy" hidden="false" targetId="b6ed-72b9-fb22-92be" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="62af-c0eb-bb77-d2a7" name="Legion Formation" hidden="false" targetId="4383-093a-ef31-3460" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1542-f9a0-fbfb-b670" name="New CategoryLink" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6d73-54a4-e734-fa5a" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f24-0484-d3e5-858a" name="Lannister Halberdiers" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="c41b-4d3f-1a19-a158" name="Lannister Halberdiers" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5&quot;"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="4+"/>
+            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="7+"/>
+          </characteristics>
+        </profile>
+        <profile id="d512-fff0-4d34-7d01" name="Halberd" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="8"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="8"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="3"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="4+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="65df-631c-9d7b-6c62" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>While capable of mounting offensive assaults, House Lannister&apos;s Halberdiers excel in defensive formations and positions. Charging enemies should think twice before facing an entrenched Halberdier line. Care should be taken to shield Halberdiers from flanking maneuvers or ranged fire, but, when properly employed, nothing gets past a Halberdier&apos;s deadly blade.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1f70-26a9-db5b-9803" name="Halberd" hidden="false" targetId="7192-d46d-ac00-c683" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a954-9d17-b5ab-d7ab" name="Set For Charge" hidden="false" targetId="1f4b-d1f2-1262-826a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2b02-3d1d-dd03-f9d0" name="New CategoryLink" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ebae-9ab7-75d9-d01f" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="afe5-a5a6-1759-606d" name="The Mountain&apos;s Men" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="d6b7-2028-8c7d-1b6c" name="The Mountain&apos;s Men" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5&quot;"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="4+"/>
+            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="7+"/>
+          </characteristics>
+        </profile>
+        <profile id="c5c0-91b9-74be-3626" name="Greatsword" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="8"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="6"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="4"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="99c0-9645-430e-3cda" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Brutal, savage, merciless, and ferocious, the Mountain&apos;s Men bring the art of warfare to new lows. They accpet no quarter. Those that flee are cut down, those that surrender are run through. The Mountain&apos;s Men excel at striking enemy troops already beleaguered by regular forces, and shattering their will to fight. Care must be taken not to let these ruthless men too far off their leash.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d272-7e19-0f41-877a" name="Greatsword" hidden="false" targetId="0e5e-0b74-98fe-5553" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5c4f-ae48-fd8a-7045" name="Ferocious Charge" hidden="false" targetId="afb7-3364-a5b7-d22b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7f06-78ee-c770-7e6e" name="New CategoryLink" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="539c-de16-30da-7af8" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae0f-95b8-3eaf-b79f" name="Cersei Lannister - Queen Regent" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="a5ea-3491-92bc-e55a" name="No Confidence" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="NCU">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;When you play the game of thrones, you win or you die. There is no middle ground.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Influence (Attach this card to a unit after claiming a Tactics Zone): While Influencing a unit, that unit suffers [-2] to Morale Tests. If Cersei claimed [Crown], any Attachments in the Influence unit lose all Abilities as well."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8b18-f628-ed70-319b" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2831-2b79-49bd-22ba" name="New CategoryLink" hidden="false" targetId="9c52-387e-c59a-a747" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da23-29ab-3ad2-fcfe" name="The High Sparrow" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="4010-cfe6-7b04-426d" name="Zealous Wrath" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="NCU">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;I Seldom feel so close to gods as when I am being whipped for mine own wickeness...&quot;"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Influence (Attach this card to a unit after claiming a Tactics Zone): Each time this unit attacks, it may either restore up to 2 wounds, or have its attack gain Vicious (Enemies suffer [-2] to Panic Tests caused by this attack). While influencing a unit of Poor Fellows or Warrior&apos;s Sons, that unit also gains [+1] to Hit."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c133-7e8e-3856-c165" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f6c3-55b6-aa25-44a6" name="New CategoryLink" hidden="false" targetId="9c52-387e-c59a-a747" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5a7c-8032-b08d-526b" name="New CategoryLink" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c230-a7af-3c02-7457" name="Tyrion Lannister - The Imp" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8d88-f764-4a8a-cbe3" name="Wealth and Cunning" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="NCU">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;He is bigger man than he seems, I think.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="When Tyrion claims a zone on the Tacctics Board, 1 opponent must discard 1 Tactics Card at random. If Tyrion claimed [Wealth], you may also move 1 Condition from 1 friendly unit to 1 enemy unit."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8c18-39bb-c386-5542" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b3ab-7aa9-3c0f-247c" name="New CategoryLink" hidden="false" targetId="9c52-387e-c59a-a747" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c1c-c50c-a915-4298" name="Tywin Lannister - The Great Lion" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="b462-93ce-7992-d9c4" name="The Rains of Castamere" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="NCU">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;Some battles are won with swords and spears, other with quills and ravens.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Once per game, at the start of your turn: 1 enemy unit becomes Panicked, Weakened, Vulnerable, and must immediately make 1 Panic Test. (Flip this card over to show its Ability has been used.)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3942-709f-102c-e945" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3edf-dd19-f755-079e" name="New CategoryLink" hidden="false" targetId="9c52-387e-c59a-a747" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eb61-d8ee-bb5a-eb4d" name="Assault Veteran" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="150b-52db-8d4e-a273" name="At Any Cost" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="Lannister Halberdiers"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="If this unit would fail a Morale Test, you may kill 1 model in this unit to re-roll that test"/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9fd0-79bc-f336-3001" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="898c-62c9-df96-330d" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fab5-841e-87a8-2728" name="Guard Captain" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="796c-43f7-8c7a-a4d5" name="Hold The Line" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="Lannister Guards"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit rolls [+2] attack dice if it begins its activation engaged."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5ca0-815a-ac57-3bcc" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ef3f-ccd5-a054-67c8" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a6d-9780-747f-fa58" name="Sandor Clegane - The Hound" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ac26-5b2f-f2d1-2f50" name="Dogged" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Killing is the sweetest thing there is.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit always treated as having 1 additional remaining rank when attacking. When this unit is destroyed, it may make 1 free Attack action before being removed."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="560d-12ae-fe8e-8878" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="dd1c-f007-4877-9f79" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f3ee-391c-3736-6a50" name="Ser Gregor Clegane - Lord Tywin&apos;s Mad Dog" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="bced-aff2-3090-3b63" name="Unstoppable Fury" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;No one could ever withstand Gregor.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit must always declare a Charge action (if able), and may re-roll its charge distance die. Each time this unit attacks, it deals D3 automatic wounds with no Defense Save."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bc84-4f01-d120-c01f" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="66dd-740a-3fce-01a2" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8967-3885-9024-8e22" name="Ser Gregor Clegane - The Mountain" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a57b-0f0b-6ba5-5be2" name="Inhuman Strength" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;No other knight in the realm inspires such terror in our enemies.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit&apos;s melee attacks roll [+2] attack dice and gain Sundering (Enemies suffer [-1] to their Defense Saves)."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="7ee7-0590-8da1-8f11" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Cleaving Blows  - Fury of the Mountain  - Overrun"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="010c-7bf3-4f5a-864e" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2f7f-131d-048d-6420" name="New CategoryLink" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a0c8-13d2-e675-d56a" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d56-5391-f4ed-ecb1" name="Ser Jaime Lannister - The Young Lion" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="455b-3541-dfce-a130" name="Boldness and Pride" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;There are no men like me. There&apos;s only me.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit adds [+1] to rolls for all Panic Tests. Each time this unit passes a Panic Test, 1 engaged enemy becomes Vulnerable."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="221b-dc36-7ba5-ddb9" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4230-1265-12c3-9ca6" name="New CategoryLink" hidden="false" targetId="88a7-8170-8a56-3e24" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0d45-7a88-6f95-801b" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca2d-92a6-6e4e-28a5" name="Ser Jaime Lannister - The Kingslayer" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="03d5-b5ef-6ece-476e" name="Expert Duelist" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;They called him the Lion of Lannister to his face and whispered Kingslayer behind his back.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Deal the target 1 automatic wound with no Defense Save. If they have an Attachment, instead, you may roll a die. On a [4+], kill that Attachment (filling its slot in with a model from its unit)."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="bf33-fa82-2b3f-8578" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Kingslayer&apos;s Renown - Precision Strikes - Riposte"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a127-e750-83e5-7b2b" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d536-02e9-9b19-ff87" name="New CategoryLink" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7939-9b38-6d7a-b0cb" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="539f-5a42-e7e0-0b0a" name="New CategoryLink" hidden="false" targetId="88a7-8170-8a56-3e24" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="37e2-35e0-e85f-46ae" name="Tywin Lannister - Lord of Casterly Rock" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="d028-5849-1093-35c9" name="Fear of the Lion" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;There is a tool for every task, and a task for every tool.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="enemies within Short Range of Tywin&apos;s unit cannot remove Condition Tokens. Any Condition Tokens on enemies engaged with Tywin may be treated as Weakened Tokens instead."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="de73-a319-1a34-8982" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Exploit Weakness  - Lannister Intimidation  - The Lion&apos;s Wrath"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="afbd-cb16-6a22-2638" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e594-efae-0e1c-4ad7" name="New CategoryLink" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c4d0-dcaa-21b6-4149" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d200-fe67-989b-c3d7" name="Lannister Crossbowmen" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c192-7c59-d374-93a3" name="Lannister Crossbowmen" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5&quot;"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="5+"/>
+            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="8+"/>
+          </characteristics>
+        </profile>
+        <profile id="5632-a048-1d84-9a2f" name="Crossbow" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="7"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="7"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="3"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Ranged"/>
+          </characteristics>
+        </profile>
+        <profile id="2802-52bb-a440-332e" name="Shortsword" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="5"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="4"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="3"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="4+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c096-7444-0b11-d813" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>In terms of training, Crossbowmen require far less than their more archaically armed counterparts. Yet, the crossbow itself is more costly to manufacture and maintain, especially in battlefield conditions. This is no issue to House Lannister. With even minimal training, Crossbowmen can fire accurately and pierce thick armor even under the pressure of a direct charge, though no Lannister commander places their Crossbowmen anywhere near a melee if it can be helped!</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2f82-e3ae-a51c-d321" name="Crossbow" hidden="false" targetId="b17f-465c-ebc3-6117" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4026-e52d-ea03-277b" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6d27-13fb-818f-4296" name="New CategoryLink" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d89c-d592-f8d0-4e18" name="Tyrion Lannister - Halfman" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="357e-9557-6fb5-1854" name="Superior Strategist" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="Non-Combatant Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;Those are brave men. Let&apos;s go kill them.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Order: When an opponent plays a Tactics Card, roll a die. On a [5+] cancel the effect of that Tactics Card. You may discard a Tactics Card to re-roll this die (this may be repeated)."/>
+          </characteristics>
+        </profile>
+        <profile id="c9ff-e4b9-ca4b-e5a4" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Cunning Ploy - Delay Orders - Disruption Tactics"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1f67-823e-2c62-78ed" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="def5-1f76-ad63-60d1" name="New CategoryLink" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="018c-1cf6-5399-f0ec" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="379f-2f77-67fd-6da0" name="Pycelle - Grand Maester" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3ec5-70e1-c897-c354" name="Maester&apos;s Healing" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="Non-Combatant Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;Pycelle is a toad. But better a Lannister toad then a Tyrell toad, no?&quot; - Tyrion Lannister"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Whenever Pycelle claims a zone on the Tactics Board, you may restore D3 wounds to a friendly unit."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bd5c-08ef-3d60-447b" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3e7c-2ce9-20f6-cb29" name="New CategoryLink" hidden="false" targetId="9c52-387e-c59a-a747" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups/>
+  <sharedRules>
+    <rule id="757a-979c-fe78-aac5" name="Lance" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Gains Critical Blow and Sundering on Charge attacks.
+- Critical Blow (Rolls of [6] deal 2 Hits).
+- Sundering (Enemies Hit suffer [-1] to their Defense Saves).</description>
+    </rule>
+    <rule id="4a3b-ab25-5144-aad7" name="Dominance of the Crown" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If you control [Crown], enemies suffer [-1] to Hit when attacking this unit.</description>
+    </rule>
+    <rule id="f4d1-1bee-0d6b-7291" name="Swift Advance" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>At the beginning of this unit&apos;s activation, it may make a free Maneuver action.</description>
+    </rule>
+    <rule id="4383-093a-ef31-3460" name="Legion Formation" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit may begin Banded with another unit of Lannister Guards. While Banded, enemies suffer [-2] to Panic Tests caused by Lannister Supremacy.</description>
+    </rule>
+    <rule id="b6ed-72b9-fb22-92be" name="Lannister Supremacy" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If this unit is attacked and does not lose a rank (including losses from their Panic Test), the attacker must immediately make a Panict Test.</description>
+    </rule>
+    <rule id="7192-d46d-ac00-c683" name="Halberd" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>- Sundering (Enemies suffer [-1] to their Defense Saves).</description>
+    </rule>
+    <rule id="1f4b-d1f2-1262-826a" name="Set For Charge" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If this unit is unengaged and charged from the Front or Flank, it may make 1 Attack action against that enemy before they resolve their charge attack.</description>
+    </rule>
+    <rule id="0e5e-0b74-98fe-5553" name="Greatsword" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>- Critical Strike (Rolls of [6] cause 2 Hits).</description>
+    </rule>
+    <rule id="afb7-3364-a5b7-d22b" name="Ferocious Charge" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Enemies charged by this unit become Panicked.</description>
+    </rule>
+    <rule id="b17f-465c-ebc3-6117" name="Crossbow" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>- Long Range
+- Sundering (Enemies suffer [-1] to Defense Saves).</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>

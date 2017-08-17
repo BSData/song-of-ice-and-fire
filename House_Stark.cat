@@ -1,0 +1,1723 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="a322-01e2-e5f9-fab4" name="House Stark" revision="1" battleScribeVersion="2.01" authorName="Lucas Massa - The Lord of the Miniatures" authorContact="lsmassa@gmail.com" authorUrl="https://www.facebook.com/thelordoftheminiatures/" gameSystemId="2264-d446-544f-f0ab" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries>
+    <forceEntry id="feea-4249-06b8-0de4" name="House Stark" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="f0ce-e409-f671-b10d" name="Cavalry Unit" hidden="false" targetId="ea8e-f716-950b-84c2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bf9c-f18d-f9ec-2365" name="Infantry" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bbbc-46ee-2a49-0897" name="NCU" hidden="false" targetId="9c52-387e-c59a-a747" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="da0d-e112-2556-1eaf" name="Attachment Card" hidden="false" targetId="2460-6433-340e-5689" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5108-03e5-d8d9-616d" name="Captain" hidden="false" targetId="2541-1bd5-5d40-1192" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5605-0e08-cdf4-f3d8" name="Solo" hidden="false" targetId="046c-b849-cb68-2b74" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="7597-2d0b-db59-ee8c" name="Grey Wind" hidden="true" targetId="b303-6b86-ecd6-9b94" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e7-322d-36e7-60c2" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3e2b-8d91-738d-5141" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="960e-8a94-99c3-3539" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="cb88-6dee-3083-613b" name="Stark Longbowmen" hidden="false" targetId="7b1a-6605-a20d-a8b1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9604-7c72-388a-976a" name="Stark Outriders" hidden="false" targetId="9f2a-dd6a-09e4-ff59" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b3cb-e108-1530-21fb" name="Stark Sworn Swords" hidden="false" targetId="5389-7da8-309b-be01" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c19c-e0bc-ae33-030c" name="Tully Sworn Shield" hidden="false" targetId="e442-e8bf-ccfa-7983" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9d79-d91e-066b-5ccb" name="Umber Berserkers" hidden="false" targetId="7699-7ae6-2762-06b6" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d8cc-efaa-23be-d78b" name="Catelyn Stark - Lady of Winterfell" hidden="false" targetId="28cd-8d93-6eb4-6e8c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e4de-e966-9056-e226" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="3ef7-7618-4978-72cc" name="Howland Reed - Lord of the Crannogs" hidden="false" targetId="5ba1-1787-c44c-f6cb" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aa8e-1b06-63af-af7e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a88c-873d-54a9-5379" name="Sansa Stark - Little Bird" hidden="false" targetId="893e-081b-036a-48d2" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4da5-6dd5-3d29-0a42" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5f7e-5515-30d8-48f1" name="Eddard Stark - Lord of Winterfell" hidden="false" targetId="e6c1-d20d-a9c0-1531" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bafa-a596-68c9-aa0f" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="da27-4e5b-7576-2182" name="Greatjon Umber - Fearless Bannerman" hidden="false" targetId="e3f8-f005-25fb-dbb0" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="def1-3799-5765-238c" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="ba26-1b1f-8c78-5105" name="Greatjon Umber - Lord of Last Hearth" hidden="false" targetId="ce24-2427-3580-4492" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4417-fed9-e25e-f936" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="61a8-ce94-284b-64c8" name="Maege Mormont - The She-bear" hidden="false" targetId="1dac-399c-a8d9-d7ef" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e5bb-89c9-ff50-f26d" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4fa7-0e50-51e7-81b1" name="Robb Stark - The Wolf Lord" hidden="false" targetId="3e2b-8d91-738d-5141" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="03f2-d88d-ffba-5c78" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6d62-5ca9-ba08-8de9" name="Robb Stark - The Young Wolf" hidden="false" targetId="17e7-322d-36e7-60c2" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9513-5dbe-e113-4d01" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b36e-293e-986f-288d" name="Sworn Sword Captain" hidden="false" targetId="ca85-2d34-0f96-116d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9650-a840-ca3a-d383" name="Umber Champion" hidden="false" targetId="e9c1-626a-340a-24ee" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="72a5-6c7a-f9bb-2741" name="Brynden Tully - The Blackfish" hidden="false" targetId="ca10-331d-088c-53f2" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fc20-4bbf-d703-1fb7" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f50c-3650-f1f4-489a" name="Brynden Tully - Unyielding Knight" hidden="false" targetId="96bc-cfc2-e986-0aae" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="80cd-b6b7-f319-0457" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="ea07-8b8b-ebcb-7c75" name="Rodrik Cassel - Master-At-Arms" hidden="false" targetId="6a5d-ebe0-d1cb-78d0" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="55e0-05f9-780a-5657" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0606-243c-40f6-e37f" name="Rodrik Cassel - Combat Veteran" hidden="false" targetId="8a9c-ca2b-3a2e-75f1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="079a-45ba-2a57-365f" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="83b3-014e-7c49-69cf" name="Bran and Hodor - Protector and Ward" hidden="false" targetId="c745-c94f-3331-d69c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b117-fe87-c5a6-571c" name="Summer" hidden="false" targetId="bd0f-cd85-97e6-b074" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e7-322d-36e7-60c2" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3e2b-8d91-738d-5141" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4269-9d5c-9908-1eb1" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="b303-6b86-ecd6-9b94" name="Grey Wind" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f593-1342-aba0-3e78" name="Grey Wind" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="7&quot;"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="3+"/>
+            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="2"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="2+"/>
+          </characteristics>
+        </profile>
+        <profile id="f970-db16-9f58-61db" name="Stalking Assault" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="2"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="-"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="-"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="2+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8eb1-0fab-0916-b964" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Where ordinary wolves might be considered frightening, the direwolf known as Grey Wind is absolutely terrifying. Faster than any man on foot, and nearly as swift as any steed, Grey Wind uses instinct alone to guide him where he&apos;s most needed on the battlefield. While his individual combat prowess is impressive, the outright panic he sows provides tremendous tactical value.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1a7d-7a55-f788-163f" name="Robb&apos;s Companion" hidden="false" targetId="8539-168d-df4b-b158" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1b2b-ec63-c8f4-6a02" name="Stalking Assault" hidden="false" targetId="b181-ec2f-6843-f16d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a4d7-9ac8-9652-a7a4" name="Wounds [2]" hidden="false" targetId="ae0c-5e00-c8f0-4c85" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d327-5db0-4a48-cc13" name="New CategoryLink" hidden="false" targetId="046c-b849-cb68-2b74" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="690d-6adb-b38e-b30d" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7b1a-6605-a20d-a8b1" name="Stark Longbowmen" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="e836-41f0-7095-cabe" name="Stark Longbowmen" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5&quot;"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="6+"/>
+            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="7+"/>
+          </characteristics>
+        </profile>
+        <profile id="ade2-c96d-b738-4de4" name="Longbow" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="8"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="8"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="4"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="4+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Ranged"/>
+          </characteristics>
+        </profile>
+        <profile id="f20c-aa6a-49f1-ffc0" name="Shortsword" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="6"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="5"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="3"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="4+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c973-14d2-8104-fd85" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Hunters, woodsmen, and survivalists from the rugged north often serve their lords in one military capacity or another, but when the Direwolf marches to war, it brings more skilled longbowmen than most. While marginally effective at short range, and very vulnerable in a pitched melee or a cavalry assault, House Stark&apos;s longbowmen will pin down or even outright eradicate enemy opposition at long range.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="421b-8e93-b654-e71e" name="Long Bow" hidden="false" targetId="ec0e-f90b-b1a9-b081" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3bda-d11c-99a5-e003" name="Rain of Arrows" hidden="false" targetId="bd19-8f6a-0350-b6ae" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fe85-4788-3285-4434" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ed51-6bf7-8292-28a5" name="New CategoryLink" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f2a-dd6a-09e4-ff59" name="Stark Outriders" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="06d6-705e-aa86-a21b" name="Stark Outriders" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="6&quot;"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="5+"/>
+            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="2"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="7+"/>
+          </characteristics>
+        </profile>
+        <profile id="0f87-9fa1-aaeb-19ed" name="Longsword" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="8"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="5"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="-"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f25c-b8a4-08bc-32aa" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>While not built for a sustained melee engagement, House Stark&apos;s Outriders rarely find themselves so encumbered. Unfettered mobility is their hallmark, with lightly armored troops and unarmored mounts chosen and trained for speed and calm temperament. While they suffer the usual vulnerability to arrows shared by light troops, Outriders consider archers themselves as natural prey. Outriders can close and shatter an unprotected archery line with ease.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="34c1-7ddd-673b-8a98" name="Hit And Run" hidden="false" targetId="7c13-7d9f-4bfd-1dfd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3133-dfa0-b8a1-a884" name="Swift Advance" hidden="false" targetId="13a0-92fd-cdec-e78b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6d4f-e207-3162-9fd0" name="New CategoryLink" hidden="false" targetId="ea8e-f716-950b-84c2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4fcc-9c87-f4aa-bcfa" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5389-7da8-309b-be01" name="Stark Sworn Swords" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="0fbc-e4fe-16d0-7e33" name="Stark Sworn Swords" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5&quot;"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="5+"/>
+            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="7+"/>
+          </characteristics>
+        </profile>
+        <profile id="3357-c190-9815-32ea" name="Longsword" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="8"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="5"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="3"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="4+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="94de-5f39-4852-8999" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Sworn Swords are the bedrock upon which House Stark commanders base their strategies. Brave, capable, and overwhelmingly loyal to the Direwolf banner, Sworn Swords would rather perish to a man than abandon their brothers in battle. While perhaps not as well found in arms and armor as wealthier houses, these men know that gold alone does not a warrior make.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3205-5517-d87e-4abf" name="Assault Formation" hidden="false" targetId="fb84-004d-a29b-a233" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="72f9-9a77-0e29-87a3" name="Stark Fury" hidden="false" targetId="70a3-f71e-01ff-1e32" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3ed7-e46e-066a-b36e" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4787-b0e2-14ad-a811" name="New CategoryLink" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e442-e8bf-ccfa-7983" name="Tully Sworn Shield" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c878-8b48-2a59-3d9f" name="Tully Sworn Shield" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="4&quot;"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="3+"/>
+            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="6+"/>
+          </characteristics>
+        </profile>
+        <profile id="fe1c-5071-bf8a-114b" name="Longsword" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="8"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="6"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="4"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="cdb4-f3d6-d784-12d8" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>House Tully&apos;s Sworn Shields bring superior armor and defensive power to the battlefield under the greater banner of House Stark. With their ability to absorb nearly any determined assault, many battles turned on their impressive holding power. While not as fast as other offensive elements, Sword Shields often defined the line behind which assault units could safely retreat after a swift dash at the enemy.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9745-1f7a-2a79-8261" name="Brace For Impact" hidden="false" targetId="c41d-843a-9f2f-901e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fa0e-134f-de04-8686" name="Shieldwall" hidden="false" targetId="97e5-a54e-c7c2-c58c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c078-7001-c9e6-846d" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fea2-9cc2-43b5-44e6" name="New CategoryLink" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7699-7ae6-2762-06b6" name="Umber Berserkers" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="eee6-691d-afe8-48bd" name="Umber Berserkers" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="6&quot;"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="6+"/>
+            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="d099-16b4-fafd-0317" name="Hand Axes" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="8"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="9"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="10"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="61ac-632f-8d78-08da" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Berserkers excel in flanking maneuvers, shattering charges, and general pursuit of routed enemies. A wise commander must take care not to allow them such free rein to find themselves overwhelmed. However, as veteran troops, Bersekers might indulge in bloodlust, but rarely find themselves consumed by it. Let their enemies taste the cold steel and fury that only the Northmen can bring!</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e0ff-e8a1-a5cb-0f30" name="Hand Axes" hidden="false" targetId="6199-8674-78cf-64a7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1e32-924d-6cf2-15e6" name="Berserker Rage" hidden="false" targetId="e9a3-1764-d310-8dc9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c55d-e494-f390-4afe" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5576-313f-9b53-bd5b" name="New CategoryLink" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="28cd-8d93-6eb4-6e8c" name="Catelyn Stark - Lady of Winterfell" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8f86-f119-e491-1f82" name="&quot;Family, Duty, Honor.&quot;" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="Non-Combatant Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;Show me the path I must walk and do not let me stumble in the dark palces that lie ahead.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Influence (Attach this card to a unit after claiming a Tactics Zone): While Influencing a unit, that unit may re-roll any/all dice when making Morale Tests."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="83ac-ee54-52aa-b64d" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ff2d-0fa9-836b-0e3f" name="New CategoryLink" hidden="false" targetId="9c52-387e-c59a-a747" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ba1-1787-c44c-f6cb" name="Howland Reed - Lord of the Crannogs" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="032d-76eb-de12-3978" name="&quot;The Threat Unseen&quot;" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="Non-Combatant Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;You never see them, but they see you. Those who go into the bogs after them get lost and never come out.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="At the start of the game, before deployment, you may place 1 Bog or Forest in addition to any other terrain. Influence (Attach this card to a unit after claiming a Tactics Zone): While Influencing a unit, that unit suffers [-1] to Hit. If Howland claimed [Maneuver], that unit also suffers D3 automatic Hits when he is attached."/>
+          </characteristics>
+        </profile>
+        <profile id="ef3a-fcbe-c5fb-6647" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Bog Devil Ambush - Crannog Traps - Guerilla Tactics"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9459-32cf-c98f-9914" name="New CategoryLink" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9142-e34b-a052-5b8c" name="New CategoryLink" hidden="false" targetId="9c52-387e-c59a-a747" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="893e-081b-036a-48d2" name="Sansa Stark - Little Bird" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2ece-4a26-5680-f9c4" name="&quot;Repeating The Words&quot;" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="Non-Combatant Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;The Hound is right... I am only a little bird, repeating the words they tought me.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Once per game, when Sansa claims a zone on the Tactics Board, you may return 1 discarded Tactics Card to your hand. (Flip this card over to show its Ability has been used.)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0ec7-80a5-fae0-579a" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0934-3c49-3878-2d20" name="New CategoryLink" hidden="false" targetId="9c52-387e-c59a-a747" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e6c1-d20d-a9c0-1531" name="Eddard Stark - Lord of Winterfell" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="07ad-f6fb-1432-8a3e" name="Northern Valor" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Know the men who follow you and let them know you. Don&apos;t ask your men to die for a stranger.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Each time this unit passes a Morale Test, 1 engaged enemy suffers 3 automatic Hits."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="2704-89ab-ddf9-2aaa" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Courage and Loyalty - Inspiring Presence - Stand Resolute"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="de93-f91d-7079-b16b" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ad3f-cedd-ea9d-6055" name="New CategoryLink" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7bf3-f521-a34f-5c79" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e3f8-f005-25fb-dbb0" name="Greatjon Umber - Fearless Bannerman" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="288b-95f9-eb98-984e" name="Fury of House Umber" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Your father once told me that the Greatjon was as fearless as any man he had ever known.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="If this unit has 1 or more destroyed ranks, the enemy becomes Panicked. If this unit has only 1 rank remaining, the enemy also becomes Vulnerable."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="77e5-a799-603f-aa29" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="aef3-a33f-1e2e-c136" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce24-2427-3580-4492" name="Greatjon Umber - Lord of Last Hearth" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3cfc-573c-d5f0-09e6" name="Umber Tenacity" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Grey Wind ate two of his fingers, and he laughed about it.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="After rolling attack dice, this unit may choose to re-roll any Misses. If it does, it suffers 1 automatic casualty per remaining Miss."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="3417-f2a2-ca4f-cccd" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Berserker Tactics - Reckless Aggression - Umber Resilience"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5668-42f8-971a-744e" name="New CategoryLink" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d7ea-9051-bc0e-ac0c" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1dac-399c-a8d9-d7ef" name="Maege Mormont - The She-bear" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="aa1f-3f5e-8916-3126" name="Stubborn Resolve" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Maege is a hoary old snark, stubborn, short-tempered, and willful.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="If this unit has 1 or more destroyed ranks, it cannot gain Condition Tokens. If this unit has 2 destroyed ranks, it also gains Resilience [2]."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d3f2-7878-beff-39d0" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1eb7-9e02-ee6b-0dec" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e2b-8d91-738d-5141" name="Robb Stark - The Wolf Lord" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="b69c-2062-4575-231c" name="Rapid Assault" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;No sword is strong until it&apos;s been tempered.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit makes a charge attack, it deals d3 additional automatic Hits. If you control [Maneuver], it gains [+2] to its total charge distance, and deals 3 automatic Hits instead of rolling."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e8eb-70c6-16a2-63b7" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="648b-a2a5-4be1-4f3c" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="17e7-322d-36e7-60c2" name="Robb Stark - The Young Wolf" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8555-5135-f372-9718" name="Swift Retreat" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;All men should keep their word, kings most of all.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="If this unit is activated by [Maneuver], it may make a free March or Retreat action instead of Maneuvering, and automatically passes its Panic Test."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="c211-d4b3-431e-964b" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Flanking Tactics - Superior Positioning - Wolf&apos;s Cunning"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b50a-9ec2-653d-263f" name="New CategoryLink" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6c56-8772-1480-5293" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca85-2d34-0f96-116d" name="Sworn Sword Captain" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9c01-2d6c-817e-3a4d" name="Crushing Blows" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="Stark Sworn Sword Captain"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit&apos;s attacks gain Critical Strike (Rolls of [6] deal 2 Hits)."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4112-6840-15c9-db8f" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6e0d-9182-8b4f-d19c" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e9c1-626a-340a-24ee" name="Umber Champion" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8d76-6322-bf94-0425" name="Umber Rage" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="Umber Berserkers"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="If this unit has 1 or more destroyed ranks, its attacks gain Vicious (Enemies suffer [-2] to Panic Tests caused by this attack)."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4ee3-cf13-5a56-3403" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7fbc-228e-57b2-b9d5" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca10-331d-088c-53f2" name="Brynden Tully - The Blackfish" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="2997-3636-cfd6-1126" name="Indomitable" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;My first rule of war, Cat, is never give the enemy his wish.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Order: When an enemy that began the turn engaged with this unit attacks, that enemy becomes Weakened."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="6439-65c4-12b2-7aa7" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Blackfish&apos;s Resolve - Hold the Line! - Tully Preserverence"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f2d9-03d4-da95-cc64" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8a87-df42-f376-53e6" name="New CategoryLink" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8f8a-99dd-04fb-4498" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="96bc-cfc2-e986-0aae" name="Brynden Tully - Unyielding Knight" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="69c7-de58-039f-d72f" name="Hold The Line!" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;It is no good hammering your sword into a plowshare if you must forge it again on the morrow.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Order: When this unit attacks, if it began its activation engaged, it gains [+1] to Hit and rolls [+2] dice."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="bfbd-c481-7061-c004" name="Iron Will" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;It is no good hammering your sword into a plowshare if you must forge it again on the morrow.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Order: When this unit makes a Morale Test, it may roll 1 additional die and discard the lowest result."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c1e1-9005-7519-699a" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="02be-ceab-207d-14a5" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a5d-ebe0-d1cb-78d0" name="Rodrik Cassel - Master-At-Arms" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f0f7-c721-9647-eb7b" name="Might of Winterfell" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;When we speak of the morrow nothing is ever certain.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit charges, it may re-roll its charge distance die, and its attack deals [+1] additional automatic Hit per remaining rank."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="54b4-7014-a321-a6b0" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Combat Prowess - Expert Training - Martial Superiority"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="11aa-dfa4-8123-95f7" name="New CategoryLink" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7e52-5c09-5e84-409f" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cbd4-4688-a2c1-c96a" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8a9c-ca2b-3a2e-75f1" name="Rodrik Cassel - Combat Veteran" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c4ba-0760-13e3-4dde" name="&quot;Martial Expertise&quot;" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="Non-Combatant Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;There is no better trainer than Rodrik.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Influence (Attach this card to a unit after claiming a Tactics Zone): While influencing a unit, that units melee attacks roll [+2] dice and may never suffer Weakened."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a690-5a88-66b2-7957" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bd5c-7ac4-0521-a2da" name="New CategoryLink" hidden="false" targetId="9c52-387e-c59a-a747" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c745-c94f-3331-d69c" name="Bran and Hodor - Protector and Ward" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3081-c47e-3b35-0299" name="Bran&apos;s Skinchanging" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;You&apos;re right, it seems dangerous.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Order: When Bran&apos;s unit, or Summer, attacks with melee, they deal an additional D3 automatic Hits."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="4cf9-90a5-3eef-377e" name="Hodor!!!" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Hodor. Hodor Hodor.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Once per game, when an enemy successfully charges this unit, they instead stop 1&quot; away (they do not suffer a Panic Test). Bran&apos;s unit may no longer be target by Bran&apos;s Skinchanging."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="23f9-9d83-72d5-ebd4" name="Character" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Bran and Hodor may ignore the usual Attachment restrictions when being added to a unit.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2e7e-f412-8e32-c338" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a285-055a-da9a-c5a6" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bd0f-cd85-97e6-b074" name="Summer" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ec48-58f2-fb35-0f34" name="Summer" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="7&quot;"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="3+"/>
+            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="2"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="2+"/>
+          </characteristics>
+        </profile>
+        <profile id="3020-bc25-0a06-9433" name="Rip &amp; Tear" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="2"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="-"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="-"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="2+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bdda-a5fd-e7c4-d805" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>It began when Bran Stark was paralyzed in a fall from a tower in Winterfell. During his convalescence, Summer defended him from a would-be assassin, confirming the bond between the Stark children and their direwolves. Hodor, a massive man of immense strength, but limited intellect, served as Bran&apos;s leg once young Stark could leave his bed. In a way, the trio funcition as one individual, a being of loyalty, honor, and intelligence.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7194-28ae-5a0f-d9da" name="Wounds [2]" hidden="false" targetId="ae0c-5e00-c8f0-4c85" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e1b3-f559-c4c8-6eac" name="Bran&apos;s Protector" hidden="false" targetId="f723-7af9-452a-3682" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9e5d-7a08-5375-f1f8" name="New CategoryLink" hidden="false" targetId="046c-b849-cb68-2b74" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="671f-47f5-ad7b-b530" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups/>
+  <sharedRules>
+    <rule id="ae0c-5e00-c8f0-4c85" name="Wounds [2]" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit may suffer [2] wounds before being killed.</description>
+    </rule>
+    <rule id="b181-ec2f-6843-f16d" name="Stalking Assault" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If attacking an enemy in the Flank or Rear, that enemy becomes Vulnerable.</description>
+    </rule>
+    <rule id="8539-168d-df4b-b158" name="Robb&apos;s Companion" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If Robb Stark is activated, and Grey Wind is within Short range, Grey Wind may immediately activate before or after Robb&apos;s unit (if he has not already activated this round).</description>
+    </rule>
+    <rule id="ec0e-f90b-b1a9-b081" name="Long Bow" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Long Range
+- Intervening units and terrain do not block Line of Sight for this attack.
+- If this attack causes at least 3 casualties, that enemy becomes Panicked.</description>
+    </rule>
+    <rule id="bd19-8f6a-0350-b6ae" name="Rain of Arrows" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit may begin the game Banded with another Longbowmen unit.
+While Banded, this unit rolls [+2] attack dice and may re-roll any Misses.</description>
+    </rule>
+    <rule id="7c13-7d9f-4bfd-1dfd" name="Hit And Run" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>At the beginning of this unit&apos;s activation, it may make a free retreat action, and automatically passes its Panic Test.</description>
+    </rule>
+    <rule id="13a0-92fd-cdec-e78b" name="Swift Advance" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>At the beginning of this unit&apos;s activation, it may make a free Maneuver action.</description>
+    </rule>
+    <rule id="fb84-004d-a29b-a233" name="Assault Formation" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit may begin the game Banded with another Sworn Sword unit. While Branded, this unit gains [+1] to Hit.</description>
+    </rule>
+    <rule id="70a3-f71e-01ff-1e32" name="Stark Fury" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this unit attacks, it may suffer D3 automatic casualties to use its highest attack die value, regardless of destroyed ranks (remove these casualties after completing the attack).</description>
+    </rule>
+    <rule id="c41d-843a-9f2f-901e" name="Brace For Impact" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Enemies do not gain re-rolls when charging this unit from the Front.</description>
+    </rule>
+    <rule id="97e5-a54e-c7c2-c58c" name="Shieldwall" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Order: When this unit rolls Defense Saves, it rolls [+3] additional Defense Dice.</description>
+    </rule>
+    <rule id="6199-8674-78cf-64a7" name="Hand Axes" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>- Sundering (Enemies suffer [-1] to their Defense Save).</description>
+    </rule>
+    <rule id="e9a3-1764-d310-8dc9" name="Berserker Rage" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If this unit is activated by [Combat], it may make a free Charge action instead of an Attack action.</description>
+    </rule>
+    <rule id="f723-7af9-452a-3682" name="Bran&apos;s Protector" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If Bran&apos;s unit is attacked, after that attack is complete, Summer may immediately make 1 free Attack or Charge action targeting that enemy.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
