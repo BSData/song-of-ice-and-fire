@@ -695,7 +695,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;When you play the game of thrones, you win or you die. There is no middle ground.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Influence (When this unit claims a Tactics Zone, attach this card to a Combat Unit until the end of the round): While Influencing a unit, that unit suffers [-2] to Morale Test rolls."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Influence (When this unit claims a Tactics Zone, attach this card to a Combat Unit until the end of the round): While Influencing a unit, that unit suffers -2 to Morale Test rolls."/>
           </characteristics>
         </profile>
       </profiles>
@@ -871,7 +871,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="Assault Veteran"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="If this unit began the turn engaged: This unit&apos;s Melee Attacks gain [+1] to Hit and roll [+2] dice this turn."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="If this unit began the turn engaged: This unit&apos;s Melee Attacks gain +1 to Hit and roll +2 dice this turn."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -1012,7 +1012,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;No one could ever withstand Gregor.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit&apos;s Melee Attacks roll [+2] dice and gain Sundering (Defenders suffer [-1] to their Defense Save rolls)."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit&apos;s Melee Attacks roll +2 dice and gain Sundering (Defenders suffer -1 to their Defense Save rolls)."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -1634,6 +1634,99 @@ At the start of this model&apos;s activation, it may take a free Maneuver action
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="f77a-49b1-fde2-7a7f" name="Pyromancers" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="0ea0-491c-cf59-4f01" name="Wildfire" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="6"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="5"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="3"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Ranged"/>
+          </characteristics>
+        </profile>
+        <profile id="8c1c-e4a0-61c4-4cf4" name="Wildfire" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="6"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="5"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="3"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+        <profile id="f90f-6f79-8ad7-80c8" name="Pyromancers" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="6+"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="7+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2d90-52c3-659e-dc46" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Pyromancers from the Alchemist&apos;s Guild employ House Lannister&apos;s most fearsome and devastating weapon: Wildfire. Known as &apos;the substance&apos;, Wildfire is a green-tinted liquid of remarkable destructive potential. Its volatility makes transporting and employing the substance hazardous in and of itself, yet, no unit of mere mortal men and endure its assault. Even the thickest armor is useless against its clinging, perncious flames.</description>
+        </rule>
+        <rule id="685d-875e-5651-14c5" name="Wildfire (Ranged)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>- Short Range
+- Defenders do not get Defense Saves against this attack.
+- Vicious (Defenders suffer -2 to their Panic Test).</description>
+        </rule>
+        <rule id="2e94-68ab-15a4-b8aa" name="Wildfire (Melee)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>- For each roll of 1, deal this unit and the defender 1 Wound.
+- Defenders do not get Defense Saves against this attack.
+- Vicious (Defenders suffer -2 to their Panic Test).</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fd7b-981b-8303-9400" name="House Lannister" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e271-19a7-199a-c523" name="Infantry Unit" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -1642,21 +1735,21 @@ At the start of this model&apos;s activation, it may take a free Maneuver action
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When Charging, this attack rolls [+3] dice, and gains Critical Blow (Rolls of 6 deal 2 Hits] and Sundering (Defenders suffer [-1] to their Defense Save rolls.)</description>
+      <description>When Charging, this attack rolls +3 dice, and gains Critical Blow (Rolls of 6 deal 2 Hits) and Sundering (Defenders suffer -1 to their Defense Save rolls.)</description>
     </rule>
     <rule id="b6ed-72b9-fb22-92be" name="Lannister Supremacy" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If this unit is attacked and passes its Panic Test, the attacker must make a Panic Test with [-2] to their roll.</description>
+      <description>If this unit is attacked and passes its Panic Test, the attacker must make a Panic Test with -2 to their roll.</description>
     </rule>
     <rule id="7192-d46d-ac00-c683" name="Halberd" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>- Sundering (Defenders suffer [-1] to their Defense Save rolls).</description>
+      <description>- Sundering (Defenders suffer -1 to their Defense Save rolls).</description>
     </rule>
     <rule id="1f4b-d1f2-1262-826a" name="Order: Set For Charge" hidden="false">
       <profiles/>
@@ -1678,14 +1771,14 @@ At the start of this model&apos;s activation, it may take a free Maneuver action
       <infoLinks/>
       <modifiers/>
       <description>- Long Range
-- Sundering (Defenders suffer [-1] to Defense Save rolls).</description>
+- Sundering (Defenders suffer -1 to Defense Save rolls).</description>
     </rule>
     <rule id="8021-4b67-1762-4d93" name="Cleaving Blows" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>- Critical Blow (Rolls of [6] deal 2 Hits).
+      <description>- Critical Blow (Rolls of 6 deal 2 Hits).
 - Defenders do not get Defense Saves.
 - Charged enemies become Panicked.</description>
     </rule>
@@ -1710,7 +1803,7 @@ At the start of this model&apos;s activation, it may take a free Maneuver action
       <infoLinks/>
       <modifiers/>
       <description>- Critical Blow (Rolls of 6 cause 2 Hits).
-- Vicious (Defenders suffer [-2] to their Panic Test).</description>
+- Vicious (Defenders suffer -2 to their Panic Test).</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
