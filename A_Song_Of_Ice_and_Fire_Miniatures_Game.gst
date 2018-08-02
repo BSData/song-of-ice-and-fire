@@ -239,7 +239,7 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="c654-32ce-0429-8d89" name="The Bastard&apos;s Girls" hidden="false" targetId="68b1-4176-1eab-1b98" type="selectionEntry">
+    <entryLink id="c654-32ce-0429-8d89" name="House Bolton Bastard&apos;s Girls" hidden="false" targetId="68b1-4176-1eab-1b98" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -289,7 +289,15 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="ab61-f047-f9ae-2288" name="Brienne - Maiden fo Tarth" hidden="false" targetId="9397-5e0a-323b-772c" type="selectionEntry">
+    <entryLink id="ab61-f047-f9ae-2288" name="Brienne - Maid of Tarth" hidden="false" targetId="9397-5e0a-323b-772c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9788-18ec-a6e4-7753" name="House Bolton Blackguards" hidden="false" targetId="701c-9c88-a9ce-a01a" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1063,6 +1071,81 @@
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="701c-9c88-a9ce-a01a" name="House Bolton Blackguards" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ec3f-f549-9f76-c191" name="Spiked Flail" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="7"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="5"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="3"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="4+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+        <profile id="22a0-1c7c-c940-02bd" name="House Bolton Black Guard" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="4"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="3+"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="7+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9b2d-5b70-f86f-ed1c" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The sheer ruthlessness of the Dreadfort Blackguards became infamous across all forces in the War of the Five Kings. Their vicious spiked flails rendered heavy shields only moderately effective at best, and House Bolton&apos;s reputation gave even hardened veterans pause when engaging them in battle. As the heaviest troops House Bolton fielded, the Blackguards could be relied upon as a solid vanguard, holding any position on the battlefield.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9767-c27d-b412-1d9c" name="Spiked Flail" hidden="false" targetId="2cd3-ab65-20cb-1ff8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ddac-452d-1d6b-6162" name="Spiked Armor" hidden="false" targetId="ffee-5306-1117-4c00" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2788-6f48-b5db-74d0" name="Infantry Unit" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="23e6-77f5-be3d-a1f2" name="Mercenaries" hidden="false" targetId="bebb-415e-f8a1-2190" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -1132,6 +1215,20 @@ At the start of this unit&apos;s activation, it may make a free Maneuver action.
       <infoLinks/>
       <modifiers/>
       <description>This unit counts as a House Bolton unit.</description>
+    </rule>
+    <rule id="2cd3-ab65-20cb-1ff8" name="Spiked Flail" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>- Vicious (Defenders suffer [-2] to their Panic Tests).</description>
+    </rule>
+    <rule id="ffee-5306-1117-4c00" name="Spiked Armor" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this unit is attacked with melee, for each Defense Save roll of a 6, the attacker suffers [1] Wound.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
