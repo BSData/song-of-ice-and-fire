@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="2264-d446-544f-f0ab" name="A Song Of Ice and Fire Miniatures Game" revision="1" battleScribeVersion="2.01" authorName="Lucas Massa - The Lord of the Miniatures" authorContact="lsmassa@gmail.com" authorUrl="https://www.facebook.com/thelordoftheminiatures/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="2264-d446-544f-f0ab" name="A Song Of Ice and Fire Miniatures Game" revision="2" battleScribeVersion="2.01" authorName="Jeremy Sadler" authorContact="jmsadler@gmail.com" authorUrl="https://www.facebook.com/groups/ASOIAFTMG/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -11,7 +11,6 @@
       <characteristicTypes>
         <characteristicType id="d643-93f4-a74b-3500" name="Speed"/>
         <characteristicType id="db7e-43bc-c2ac-0ee8" name="Defense"/>
-        <characteristicType id="9e83-6e91-e782-7aec" name="Resilience"/>
         <characteristicType id="800e-8f16-2151-314e" name="Morale"/>
       </characteristicTypes>
     </profileType>
@@ -103,7 +102,14 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d0f6-b391-f8dd-a22e" type="min"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="046c-b849-cb68-2b74" name="Solo" hidden="false">
+    <categoryEntry id="046c-b849-cb68-2b74" name="Monster" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="1c00-c38c-112d-04d9" name="War Machine" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -302,7 +308,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;In King&apos;s Landing, there are two sorts of people. The players and the pieces.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="When Petyr claims a zone in the Tactics Board, he may replace its effect with the effect of any other zone."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="When Petyr claims a zone on the Tactics Board, he may replace its effect with the effect of any unclaimed zone."/>
           </characteristics>
         </profile>
       </profiles>
@@ -333,7 +339,7 @@
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="24f6-a6db-eed2-632a" name="Roose Bolton - Calculating Tactician" hidden="false" collective="false" type="model">
+    <selectionEntry id="24f6-a6db-eed2-632a" name="Roose Bolton - Lord of the Dreadfort" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="e4ff-059d-9c4d-e031" name="Horrific Rumors" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="Non-Combatant Unit">
           <profiles/>
@@ -341,8 +347,17 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;This is a cold man.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Influence (Attach this card to a unit after claiming a Tactics Zone). When Roose influences a unit, that unit becomes Panicked. Each time the influenced unit fails a Panic Test, they suffer 2 additional wounds."/>
+            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;That man scares me.&quot; - Robb Stark"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="When Roose claims a zone on the Tactics Board, you may replace that zone&apos;s effect with: Up to 2 enemy Combat Units become Panicked."/>
+          </characteristics>
+        </profile>
+        <profile id="e69b-89a8-962e-83c3" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- A Flayed Man Has No Secrets - Calculated Cruelty - Fear Keeps A Man Alive"/>
           </characteristics>
         </profile>
       </profiles>
@@ -365,30 +380,32 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="aa87-5402-9155-edff" name="Commander" hidden="false" targetId="2541-1bd5-5d40-1192" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d21f-61ff-f81f-e6bb" name="Dreadfort Captain" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="7658-0c49-5a0f-382c" name="Horrific Methods" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5b23-c179-b4e7-21a1" name="Spread Fear" hidden="false" targetId="ab91-68f9-d096-999f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="Bolton Cutthroats"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="While engaged with this unit, Panicked enemies cannot be target by friendly Tactics Cards, and their Attachments lose all Abilities."/>
-            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -416,20 +433,27 @@
     </selectionEntry>
     <selectionEntry id="9b41-fa40-807a-e13b" name="Ramsay Snow - Sadist" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="8d66-903e-c30c-6333" name="Mark of Death" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+        <profile id="8d66-903e-c30c-6333" name="Cut Them Down!" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Strip off their skins. Lord Bolton, he used to say a naked man has few secrets, but a flayed man&apos;s got none.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit activates, 1 enemy in Long Range and Line of Sight becomes Panicked."/>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;A naked man has few secrets, but a flayed man&apos;s got none.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When an enemy engaged with this unit fails a Panic Test, they suffer 2 additional Wounds."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="b723-e9ff-5802-a6c9" name="Affiliation: House Bolton" hidden="false" targetId="54f7-0f33-4c46-7acc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -447,24 +471,31 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="5584-e929-67b1-01ee" name="Infantry Unit" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c9f7-1c23-0cb7-6b40" name="Ramsay Snow - The Bastard of Bolton" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c9f7-1c23-0cb7-6b40" name="Ramsay Snow - The Bastard of Bolton" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="e27b-1069-0c7d-938c" name="Sadistic Methods" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+        <profile id="e27b-1069-0c7d-938c" name="Order: Flay Them All!" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Snow, my wife called me before she ate her fingers, but I say Bolton.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit&apos;s melee attacks gain Vicious (Enemies suffer [-2] to Panic Tests caused by this attack) and, when targeting Panicked enemies, gains [+1] to Hit."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When an enemy engaged with this unit fails a Panic Test: 1 other enemy within Long Range of that unit must make a Panic Test."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -474,12 +505,19 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- A Flayed Man Has No Secrets - Gruesome Display - Sadistic Games"/>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Cruel Methods - Our Blades Are Sharp - Sadistic Games"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="27af-f42a-c61a-04a3" name="Affiliation: House Bolton" hidden="false" targetId="54f7-0f33-4c46-7acc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -505,33 +543,46 @@
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="332a-508c-df39-956c" name="Roose Bolton - Lord of the Dreadfort" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="332a-508c-df39-956c" name="Roose Bolton - The Leech Lord" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="5530-7b13-7241-2631" name="Merciless Reputation" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+        <profile id="5530-7b13-7241-2631" name="Prey On Fear" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Fear is what keeps a man alive in this world of treachery and deceit.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Whiel engaged with a unit, enemies must roll 1 additionnal dice and discard the highest result (after any-rerolls) when making Panic Tests."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Each time an enemy engaged with this unit fails a Panic Test, this unit may restore up to 2 Wounds."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="d6b8-ba2d-249f-975b" name="Affiliation: House Bolton" hidden="false" targetId="54f7-0f33-4c46-7acc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dccf-31d7-32b9-8720" name="Ferocious Assault" hidden="false" targetId="7a4e-a35b-ddc8-014a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="bfb1-91dc-b207-e9d7" name="New CategoryLink" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
+        <categoryLink id="34b7-93b6-0e1b-3c45" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="34b7-93b6-0e1b-3c45" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="false">
+        <categoryLink id="4fdd-a17a-467a-aebb" name="Mercenaries" hidden="false" targetId="bebb-415e-f8a1-2190" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -543,12 +594,12 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4736-569b-81e4-13e8" name="Bolton Cutthroat" hidden="false" collective="false" type="unit">
+    <selectionEntry id="4736-569b-81e4-13e8" name="House Bolton Cutthroats" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="9dfc-d5c6-8ca8-80f5" name="Bolton Cutthroat" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+        <profile id="9dfc-d5c6-8ca8-80f5" name="House Bolton Cutthroats" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -556,8 +607,7 @@
           <characteristics>
             <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5&quot;"/>
             <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="5+"/>
-            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
-            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="8+"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="7+"/>
           </characteristics>
         </profile>
         <profile id="6812-4107-6736-390d" name="Spiked Mace" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
@@ -590,12 +640,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="4ca4-d781-a747-4062" name="Spread Fear" hidden="false" targetId="ab91-68f9-d096-999f" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -622,9 +666,9 @@
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="68b1-4176-1eab-1b98" name="The Bastard&apos;s Girls" hidden="false" collective="false" type="unit">
+    <selectionEntry id="68b1-4176-1eab-1b98" name="House Bolton Bastard&apos;s Girls" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="a30b-c43c-de6d-a404" name="The Bastard&apos;s Girls" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+        <profile id="a30b-c43c-de6d-a404" name="House Bolton Bastard&apos;s Girls" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -632,11 +676,10 @@
           <characteristics>
             <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5&quot;"/>
             <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="6+"/>
-            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
-            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="7+"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="5+"/>
           </characteristics>
         </profile>
-        <profile id="e234-4c4c-e4d0-ca77" name="Hunter&apos;s Bow" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+        <profile id="e234-4c4c-e4d0-ca77" name="Tracker&apos;s Bow" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -649,7 +692,7 @@
             <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Ranged"/>
           </characteristics>
         </profile>
-        <profile id="fcbb-355e-1916-b8ed" name="Attack Dogs" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+        <profile id="fcbb-355e-1916-b8ed" name="Blade and Fang" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -657,8 +700,8 @@
           <characteristics>
             <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="6"/>
             <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="6"/>
-            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="-"/>
-            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="4+"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="3"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
             <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
           </characteristics>
         </profile>
@@ -679,13 +722,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="def0-aa0b-e246-d06e" name="Sic&apos;em" hidden="false" targetId="c185-93fb-ea4a-be6e" type="rule">
+        <infoLink id="def0-aa0b-e246-d06e" name="Order: Sic&apos;em" hidden="false" targetId="c185-93fb-ea4a-be6e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="eac6-d718-5b6c-bf55" name="Hunter&apos;s Bow" hidden="false" targetId="02fe-6de3-7a93-9c78" type="rule">
+        <infoLink id="eac6-d718-5b6c-bf55" name="Tracker&apos;s Bow" hidden="false" targetId="02fe-6de3-7a93-9c78" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -717,18 +760,17 @@
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c9f7-9e3a-65c3-d1be" name="The Flayed Men" hidden="false" collective="false" type="unit">
+    <selectionEntry id="c9f7-9e3a-65c3-d1be" name="House Bolton Flayed Men" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="a857-81e1-6701-dbb0" name="The Flayed Men" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+        <profile id="a857-81e1-6701-dbb0" name="House Bolton Flayed Men" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5&quot;"/>
-            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="3+"/>
-            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="3"/>
-            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="7+"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="2+"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="6+"/>
           </characteristics>
         </profile>
         <profile id="b41b-bfef-c6cc-cef9" name="War Flail" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
@@ -738,7 +780,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="8"/>
-            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="5"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="6"/>
             <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="-"/>
             <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
             <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
@@ -755,19 +797,19 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="ec13-4c8a-5dda-b794" name="Ferocious Charge" hidden="false" targetId="7a4e-a35b-ddc8-014a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="1714-a063-2d48-5a6c" name="War Flail" hidden="false" targetId="bd64-2d7b-e95e-a5ac" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="2c2a-5fbe-d5bf-d7c5" name="Swift Advance" hidden="false" targetId="56ab-31ff-2708-c161" type="rule">
+        <infoLink id="2c2a-5fbe-d5bf-d7c5" name="Cavalry" hidden="false" targetId="56ab-31ff-2708-c161" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a55c-1aae-be9e-bc43" name="Spread Fear" hidden="false" targetId="ab91-68f9-d096-999f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -796,7 +838,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="9.0"/>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="737f-b44f-174b-c943" name="Lord Varys - The Spider" hidden="false" collective="false" type="model">
@@ -808,7 +850,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;Varys has ways of learning things that no man could know.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="When Varys claims a zone on the Tactics Board, you may look at the top 2 cards of your opponent&apos;s Tactics Deck. You may then place each of those cads on the top or botton of your opponent&apos;s deck, in any order."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Varys begins the game with 4 Order tokens on him.  When an enemy NCU claims a zone on the Tactics Board, you may expend 1 Order token on Varys and roll a die. On a 3+, choose 1: - That NCU loses all Abilities until the end of the round. - Cancel the effect oif the claimed zone. This may be repeated if unsuccessful."/>
           </characteristics>
         </profile>
       </profiles>
@@ -836,7 +878,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eae7-3012-112e-7367" name="The High Seneschal" hidden="false" collective="false" type="model">
@@ -848,7 +890,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;He is the keeper of our world&apos;s history.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="The High Seneschal cannot be activated and cannot move onto the Tactics Board. Once the Victor has been determined, that player may define all actions and events that transpired throughout the game. The lose may never refute or deny any retelling of said events by the Victor herein until the end of time, or unti such a time where they best the Victor in a new game."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="The High Seneschal cannot activate and cannot be targeted in any way. Once the Victor has been determined, that player may define all actions and events that transpired throughout the game. No opponent may refute or deny any retelling of said events (regardless of how unlikely or exaggerated) until such a time where they best the victor in a new game."/>
           </characteristics>
         </profile>
       </profiles>
@@ -881,14 +923,14 @@
     </selectionEntry>
     <selectionEntry id="9fcb-17d0-6691-0903" name="Theon Greyjoy - Reek" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="d307-3c47-4ecf-42fd" name="Set an Example" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+        <profile id="d307-3c47-4ecf-42fd" name="Order: Set an Example" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;I&apos;m not him, I&apos;m not the turncloak, he died at Winterfell. My name is Reek!&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="After this unit rolls attack dice, or rolls a Morale Test, you may kill Theon to re-roll any dice."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit activates, 1 enemy within Long Range becomes Panicked. Roll a die. On a [5+], kill Theon (moving 1 model from the back of the unit to fill his slot)."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -937,7 +979,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;I sell my sword, I don&apos;t give it away.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Whiel you control [WEALTH], this unit gains [+1][SPEED], [+2] to Morale Test rolls, and gains [+2] Attack dice."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Whiel you control [WEALTH], this unit gains [+1][SPEED], rolls [+2] Attack dice, and gains [+2] to Morale Test rolls."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -966,30 +1008,30 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9397-5e0a-323b-772c" name="Brienne - Maiden fo Tarth" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="9397-5e0a-323b-772c" name="Brienne - Maid of Tarth" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="ac62-c4d6-6ce1-7070" name="Knightly Valor" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+        <profile id="ac62-c4d6-6ce1-7070" name="Knightly Vow" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;A true knight is sworn to protect those who are weaker than himself, or die in the attempt.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="If you control [COMBAT], this unit may re-roll its charge distance die, and any Misses with melee attacks."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Before deployment, select 1 enemy unit. Until the end of the game, this unit&apos;s Melee Attacks gain [+1] to Hit and roll [+2] dice against that enemy."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
-        <profile id="ddd9-be39-e028-feb6" name="Unwavering Resolve" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+        <profile id="ddd9-be39-e028-feb6" name="Stalwart" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;A true knight is sworn to protect those who are weaker than himself, or die in the attempt.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit never suffers penalties to its Morale."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit gains [+2] to Morale Test rolls."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -1029,58 +1071,67 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>- Vicious (Enemies hit suffer [-2] to Panic Tests caused by this attack).</description>
+      <description>- If this attack targets an enemy that has not activated this round, that enemy become Vulnerable.
+- Vicious (Defenders suffer [-2] to their Panic Tests).</description>
     </rule>
     <rule id="ab91-68f9-d096-999f" name="Spread Fear" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If an engaged enemy fails a Panic Test, 1 other enemy in Long Range of that unit becomes Panicked.</description>
+      <description>Each time an enemy engaged with this unit fails a Panic Test, 1 other enemy within Long Range of that unit becomes Panicked.</description>
     </rule>
-    <rule id="02fe-6de3-7a93-9c78" name="Hunter&apos;s Bow" hidden="false">
+    <rule id="02fe-6de3-7a93-9c78" name="Tracker&apos;s Bow" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>- Long Range
-- If the target rolls a [1] on any Defense Saves, they become Vulnerable.</description>
+- If the defener rolls a [1] on any Defense Saves, they become Vulnerable.</description>
     </rule>
     <rule id="96df-b554-7ae0-905a" name="Master and Pets" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Hound models are removed from this unit before other modles (moving other models up to fill in missing slots).</description>
+      <description>Hound models are removed from this unit before other models (moving other models up to fill in missing slots).</description>
     </rule>
-    <rule id="c185-93fb-ea4a-be6e" name="Sic&apos;em" hidden="false">
+    <rule id="c185-93fb-ea4a-be6e" name="Order: Sic&apos;em" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>After completing a Hunter&apos;s Bow attack, this unit may immediately make a free Charge action against that enemy.</description>
+      <description>After this unit completes a Ranged Attack: this unit may make a free Charge action against the targeted enemy.</description>
     </rule>
     <rule id="bd64-2d7b-e95e-a5ac" name="War Flail" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>- Enemies may not trigger Abilites or Tactics cards in respons to this attack.
-- Gains Critical Strike on Charge attacks (Rolls of [6] cause 2 Hits).</description>
+      <description>- Critical Blow (Rolls of [6] cause 2 Hits).
+- Vicious (Defenders suffer [-2] to their Panic Tests).</description>
     </rule>
-    <rule id="7a4e-a35b-ddc8-014a" name="Ferocious Charge" hidden="false">
+    <rule id="7a4e-a35b-ddc8-014a" name="Ferocious Assault" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Enemies charge by this unit become Panicked.</description>
+      <description>Enemies successfully Charged by this unit become Panicked.</description>
     </rule>
-    <rule id="56ab-31ff-2708-c161" name="Swift Advance" hidden="false">
+    <rule id="56ab-31ff-2708-c161" name="Cavalry" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>At the beginning of this unit&apos;s activation, it may make a free Maneuver action.</description>
+      <description>Each model in this unit has 3 Wounds.
+At the start of this unit&apos;s activation, it may make a free Maneuver action.</description>
+    </rule>
+    <rule id="54f7-0f33-4c46-7acc" name="Affiliation: House Bolton" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit counts as a House Bolton unit.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>

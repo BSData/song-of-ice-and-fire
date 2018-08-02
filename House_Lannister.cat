@@ -121,7 +121,21 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a58-b933-994a-2624" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1d0-c08c-05ee-5942" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4c55-badf-eef7-46cd" type="max"/>
       </constraints>
@@ -131,7 +145,15 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="37e2-35e0-e85f-46ae" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4958-dfa5-387a-6959" type="max"/>
       </constraints>
@@ -163,21 +185,51 @@
       </constraints>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="c050-1127-373f-b64d" name="Ser Gregor Clegane - Lord Tywin&apos;s Mad Dog" hidden="false" targetId="f3ee-391c-3736-6a50" type="selectionEntry">
+    <entryLink id="c050-1127-373f-b64d" name="Gregor Clegane - Lord Tywin&apos;s Mad Dog" hidden="false" targetId="f3ee-391c-3736-6a50" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="843e-6a6b-f7c1-7d7f" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a876-e171-221a-3723" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c27f-f0ef-7286-1c26" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e4ff-7d0b-e1ee-5519" type="max"/>
       </constraints>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="a876-e171-221a-3723" name="Ser Gregor Clegane - The Mountain" hidden="false" targetId="8967-3885-9024-8e22" type="selectionEntry">
+    <entryLink id="a876-e171-221a-3723" name="Gregor Clegane - The Mountain" hidden="false" targetId="8967-3885-9024-8e22" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="843e-6a6b-f7c1-7d7f" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c050-1127-373f-b64d" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c27f-f0ef-7286-1c26" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="313c-aadd-63af-efc4" type="max"/>
       </constraints>
@@ -198,7 +250,15 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2943-1421-2d51-8ecb" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="58f1-6bb9-b0ff-c2ea" type="max"/>
       </constraints>
@@ -226,7 +286,21 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd6a-6283-a3de-febf" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1d0-c08c-05ee-5942" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="80f6-fe79-fe0b-999b" type="max"/>
       </constraints>
@@ -242,20 +316,78 @@
       </constraints>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="dd26-d895-5067-428b" name="Ser Gregor Clegane - Mounted Behemoth" hidden="false" targetId="8e79-a259-262f-87a7" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
     <entryLink id="d1be-29d2-8e48-916b" name="Gregor Clegane - The Mountain That Rides" hidden="false" targetId="c27f-f0ef-7286-1c26" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
-      <constraints/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="843e-6a6b-f7c1-7d7f" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a876-e171-221a-3723" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f3ee-391c-3736-6a50" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b146-f950-a613-d80f" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e1d0-c08c-05ee-5942" name="Tyrion Lannister - The Giant of Lannister" hidden="false" targetId="5455-f7cc-24df-0b86" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bd6a-6283-a3de-febf" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a58-b933-994a-2624" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4abc-5201-0707-2192" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="732c-7d8c-b592-47ad" name="Gregor Clegane - Mounted Behemoth" hidden="false" targetId="843e-6a6b-f7c1-7d7f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8967-3885-9024-8e22" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c050-1127-373f-b64d" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c27f-f0ef-7286-1c26" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f1d-c128-d306-226b" type="max"/>
+      </constraints>
       <categoryLinks/>
     </entryLink>
   </entryLinks>
@@ -270,7 +402,6 @@
           <characteristics>
             <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5&quot;"/>
             <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="3+"/>
-            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="2"/>
             <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="6+"/>
           </characteristics>
         </profile>
@@ -280,8 +411,8 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="8"/>
-            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="5"/>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="6"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="3"/>
             <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="-"/>
             <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
             <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
@@ -298,19 +429,19 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="3078-6b0b-73c6-30e1" name="Dominance of the Crown" hidden="false" targetId="4a3b-ab25-5144-aad7" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="038d-ba17-5088-c76e" name="Lance" hidden="false" targetId="757a-979c-fe78-aac5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="766a-aa7c-d092-8075" name="Swift Advance" hidden="false" targetId="f4d1-1bee-0d6b-7291" type="rule">
+        <infoLink id="b784-470b-a390-ad60" name="Cavalry" hidden="false" targetId="56ab-31ff-2708-c161" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dad4-3d3a-e8fb-247d" name="Lannister Supremacy" hidden="false" targetId="b6ed-72b9-fb22-92be" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -342,7 +473,7 @@
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0ca3-de68-5970-5bd2" name="Lannister Guards" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0ca3-de68-5970-5bd2" name="Lannister Guardsmen" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="5e56-2144-ae07-65af" name="Lannister Guards" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
           <profiles/>
@@ -352,8 +483,7 @@
           <characteristics>
             <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="4&quot;"/>
             <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="3+"/>
-            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
-            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="8+"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="7+"/>
           </characteristics>
         </profile>
         <profile id="bd03-edfd-dcf5-462b" name="Longsword" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
@@ -386,12 +516,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="62af-c0eb-bb77-d2a7" name="Legion Formation" hidden="false" targetId="4383-093a-ef31-3460" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -418,7 +542,7 @@
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0f24-0484-d3e5-858a" name="Lannister Halberdiers" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="0f24-0484-d3e5-858a" name="Lannister Halberdiers" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="c41b-4d3f-1a19-a158" name="Lannister Halberdiers" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
           <profiles/>
@@ -428,7 +552,6 @@
           <characteristics>
             <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5&quot;"/>
             <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="4+"/>
-            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
             <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="7+"/>
           </characteristics>
         </profile>
@@ -438,8 +561,8 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="8"/>
-            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="8"/>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="7"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="7"/>
             <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="3"/>
             <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="4+"/>
             <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
@@ -462,7 +585,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="a954-9d17-b5ab-d7ab" name="Set For Charge" hidden="false" targetId="1f4b-d1f2-1262-826a" type="rule">
+        <infoLink id="a954-9d17-b5ab-d7ab" name="Order: Set For Charge" hidden="false" targetId="1f4b-d1f2-1262-826a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -494,7 +617,7 @@
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="afe5-a5a6-1759-606d" name="The Mountain&apos;s Men" hidden="false" collective="false" type="unit">
+    <selectionEntry id="afe5-a5a6-1759-606d" name="House Clegane Mountain&apos;s Men" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="d6b7-2028-8c7d-1b6c" name="The Mountain&apos;s Men" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
           <profiles/>
@@ -504,11 +627,10 @@
           <characteristics>
             <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5&quot;"/>
             <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="4+"/>
-            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
             <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="7+"/>
           </characteristics>
         </profile>
-        <profile id="c5c0-91b9-74be-3626" name="Greatsword" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
+        <profile id="c5c0-91b9-74be-3626" name="Vicious Methods" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Atack">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -532,13 +654,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="d272-7e19-0f41-877a" name="Greatsword" hidden="false" targetId="0e5e-0b74-98fe-5553" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5c4f-ae48-fd8a-7045" name="Ferocious Charge" hidden="false" targetId="afb7-3364-a5b7-d22b" type="rule">
+        <infoLink id="86a7-2029-67f4-aa07" name="Vicious Methods" hidden="false" targetId="7287-821e-bf63-8a30" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -579,7 +695,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;When you play the game of thrones, you win or you die. There is no middle ground.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Influence (Attach this card to a unit after claiming a Tactics Zone): While Influencing a unit, that unit suffers [-2] to Morale Tests. If Cersei claimed [Crown], any Attachments in the Influence unit lose all Abilities as well."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Influence (When this unit claims a Tactics Zone, attach this card to a Combat Unit until the end of the round): While Influencing a unit, that unit suffers [-2] to Morale Test rolls."/>
           </characteristics>
         </profile>
       </profiles>
@@ -607,19 +723,28 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da23-29ab-3ad2-fcfe" name="The High Sparrow" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="4010-cfe6-7b04-426d" name="Zealous Wrath" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="NCU">
+        <profile id="4010-cfe6-7b04-426d" name="Unwavering Conviction" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="NCU">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;I Seldom feel so close to gods as when I am being whipped for mine own wickeness...&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Influence (Attach this card to a unit after claiming a Tactics Zone): Each time this unit attacks, it may either restore up to 2 wounds, or have its attack gain Vicious (Enemies suffer [-2] to Panic Tests caused by this attack). While influencing a unit of Poor Fellows or Warrior&apos;s Sons, that unit also gains [+1] to Hit."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Influence (When this unit claims a Tactics Zone, attach this card to a Combat Unit until the end of the road): While Influencing a unit, they gain [+2] to Morale Test rolls."/>
+          </characteristics>
+        </profile>
+        <profile id="901b-43e8-f28d-bf1d" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Mercy of the Mother  - Protection of the Father  - Wrath of the Warrior"/>
           </characteristics>
         </profile>
       </profiles>
@@ -659,14 +784,14 @@
     </selectionEntry>
     <selectionEntry id="c230-a7af-3c02-7457" name="Tyrion Lannister - The Imp" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="8d88-f764-4a8a-cbe3" name="Wealth and Cunning" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="NCU">
+        <profile id="8d88-f764-4a8a-cbe3" name="Tactical Mastermind" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="NCU">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;He is bigger man than he seems, I think.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="When Tyrion claims a zone on the Tacctics Board, 1 opponent must discard 1 Tactics Card at random. If Tyrion claimed [Wealth], you may also move 1 Condition from 1 friendly unit to 1 enemy unit."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Your Tactics Hand size is increased by [+1]. (You start the game with 4 cards and may draw up to 4 cards when re-filling your hand) Tyrion begins the game with 2 Order tokens on him. When Tyrion activates, you may discard 1 Order token from him to force your opponent to reveal 2 Tactics cards from their hand (or 1 if they only have 1). Discard 1 of those cards."/>
           </characteristics>
         </profile>
       </profiles>
@@ -694,7 +819,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c1c-c50c-a915-4298" name="Tywin Lannister - The Great Lion" hidden="false" collective="false" type="model">
@@ -706,7 +831,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;Some battles are won with swords and spears, other with quills and ravens.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Once per game, at the start of your turn: 1 enemy unit becomes Panicked, Weakened, Vulnerable, and must immediately make 1 Panic Test. (Flip this card over to show its Ability has been used.)"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Once per game, at the start of any turn, choose one enemy Combat Unit: That unit becomes Panicked, Weakened, Vulnerable,and any Attachments on that unit lose all Abilities until the end of the round. (Flip this card over to show its Ability has been used.)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -734,19 +859,19 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eb61-d8ee-bb5a-eb4d" name="Assault Veteran" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="150b-52db-8d4e-a273" name="At Any Cost" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
+        <profile id="150b-52db-8d4e-a273" name="Order: Hold The Line!" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="Lannister Halberdiers"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="If this unit would fail a Morale Test, you may kill 1 model in this unit to re-roll that test"/>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="Assault Veteran"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="If this unit began the turn engaged: This unit&apos;s Melee Attacks gain [+1] to Hit and roll [+2] dice this turn."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -780,14 +905,14 @@
     </selectionEntry>
     <selectionEntry id="fab5-841e-87a8-2728" name="Guard Captain" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="796c-43f7-8c7a-a4d5" name="Hold The Line" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
+        <profile id="796c-43f7-8c7a-a4d5" name="Order: At Any Cost" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="Lannister Guards"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit rolls [+2] attack dice if it begins its activation engaged."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="If this unit would fail a Panic Test: Kill 1 model in this unit to automatically pass this Panic Test."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -821,20 +946,27 @@
     </selectionEntry>
     <selectionEntry id="9a6d-9780-747f-fa58" name="Sandor Clegane - The Hound" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="ac26-5b2f-f2d1-2f50" name="Dogged" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
+        <profile id="ac26-5b2f-f2d1-2f50" name="The Hound&apos;s Fury" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Killing is the sweetest thing there is.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit always treated as having 1 additional remaining rank when attacking. When this unit is destroyed, it may make 1 free Attack action before being removed."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Before rolling dice, this unit&apos;s Melee Attack may gain [+1] to Hit and Vicious (Defenders suffer [-2] to their Panic Test). If it does, after this attack is completed, this unit suffers D3 Wounds."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="d1bd-c007-3a0b-e60c" name="Affiliation: House Clegane" hidden="false" targetId="1ec0-8118-a6bb-6694" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -860,16 +992,27 @@
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f3ee-391c-3736-6a50" name="Ser Gregor Clegane - Lord Tywin&apos;s Mad Dog" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f3ee-391c-3736-6a50" name="Gregor Clegane - Lord Tywin&apos;s Mad Dog" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="bced-aff2-3090-3b63" name="Unstoppable Fury" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
+        <profile id="bced-aff2-3090-3b63" name="Uncontrolled Rage" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;No one could ever withstand Gregor.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit must always declare a Charge action (if able), and may re-roll its charge distance die. Each time this unit attacks, it deals D3 automatic wounds with no Defense Save."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit must always declare a Charge action (if able)."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="fe68-d94e-6e35-bbd9" name="Inhuman Strength" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;No one could ever withstand Gregor.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit&apos;s Melee Attacks roll [+2] dice and gain Sundering (Defenders suffer [-1] to their Defense Save rolls)."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -898,34 +1041,36 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8967-3885-9024-8e22" name="Ser Gregor Clegane - The Mountain" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8967-3885-9024-8e22" name="Gregor Clegane - The Mountain" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="a57b-0f0b-6ba5-5be2" name="Inhuman Strength" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;No other knight in the realm inspires such terror in our enemies.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit&apos;s melee attacks roll [+2] attack dice and gain Sundering (Enemies suffer [-1] to their Defense Saves)."/>
-            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
-          </characteristics>
-        </profile>
         <profile id="7ee7-0590-8da1-8f11" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Cleaving Blows  - Fury of the Mountain  - Overrun"/>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value=" - Fury of the Mountain  - Orders to Destroy   - Overrun"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="f0d9-acc1-894c-2b85" name="Affiliation: House Clegane" hidden="false" targetId="1ec0-8118-a6bb-6694" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f78f-e036-3d9f-7163" name="Unstoppable Fury" hidden="false" targetId="c627-460b-fd0a-56f8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -958,16 +1103,16 @@
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d56-5391-f4ed-ecb1" name="Ser Jaime Lannister - The Young Lion" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7d56-5391-f4ed-ecb1" name="Jaime Lannister - The Young Lion" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="455b-3541-dfce-a130" name="Boldness and Pride" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
+        <profile id="455b-3541-dfce-a130" name="Boldness and Courage" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;There are no men like me. There&apos;s only me.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit adds [+1] to rolls for all Panic Tests. Each time this unit passes a Panic Test, 1 engaged enemy becomes Vulnerable."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit makes a Melee Attack, it is always treated as having 1 additional rank. If it already has full ranks, it rolls [+2] attack dice."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -1006,16 +1151,16 @@
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ca2d-92a6-6e4e-28a5" name="Ser Jaime Lannister - The Kingslayer" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ca2d-92a6-6e4e-28a5" name="Jaime Lannister - The Kingslayer" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="03d5-b5ef-6ece-476e" name="Expert Duelist" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
+        <profile id="03d5-b5ef-6ece-476e" name="Order: Counterattack" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;They called him the Lion of Lannister to his face and whispered Kingslayer behind his back.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Deal the target 1 automatic wound with no Defense Save. If they have an Attachment, instead, you may roll a die. On a [4+], kill that Attachment (filling its slot in with a model from its unit)."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit is attacked with melee, after Attack dice are rolled: For each blocked Hit, the attacker suffers [1] automatic Hit."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -1025,7 +1170,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Kingslayer&apos;s Renown - Precision Strikes - Riposte"/>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Kingslayer&apos;s Renown - Expert Parry - Deadly Riposte"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1072,14 +1217,14 @@
     </selectionEntry>
     <selectionEntry id="37e2-35e0-e85f-46ae" name="Tywin Lannister - Lord of Casterly Rock" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="d028-5849-1093-35c9" name="Fear of the Lion" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
+        <profile id="d028-5849-1093-35c9" name="Intimidating" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;There is a tool for every task, and a task for every tool.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="enemies within Short Range of Tywin&apos;s unit cannot remove Condition Tokens. Any Condition Tokens on enemies engaged with Tywin may be treated as Weakened Tokens instead."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit activates, 1 enemy within Long Range becomes Weakened."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -1094,7 +1239,14 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="aed3-66f1-7788-fdc5" name="Lannister Supremacy" hidden="false" targetId="b6ed-72b9-fb22-92be" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -1137,7 +1289,6 @@
           <characteristics>
             <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5&quot;"/>
             <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="5+"/>
-            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
             <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="8+"/>
           </characteristics>
         </profile>
@@ -1212,14 +1363,14 @@
     </selectionEntry>
     <selectionEntry id="d89c-d592-f8d0-4e18" name="Tyrion Lannister - Halfman" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="357e-9557-6fb5-1854" name="Superior Strategist" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="Non-Combatant Unit">
+        <profile id="357e-9557-6fb5-1854" name="Order: Superior Tactician" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="Non-Combatant Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;Those are brave men. Let&apos;s go kill them.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Order: When an opponent plays a Tactics Card, roll a die. On a [5+] cancel the effect of that Tactics Card. You may discard a Tactics Card to re-roll this die (this may be repeated)."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="When an opponent plays a Tactics Card: Roll a die. On a [5+] cancel the effect of that Tactics Card. You may discard a Tactics Card to re-roll this die (this may be repeated)."/>
           </characteristics>
         </profile>
         <profile id="c9ff-e4b9-ca4b-e5a4" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
@@ -1228,7 +1379,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Cunning Ploy - Delay Orders - Disruption Tactics"/>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Adaptive Tactics - Cunning Ploy - Delay Orders "/>
           </characteristics>
         </profile>
       </profiles>
@@ -1268,14 +1419,14 @@
     </selectionEntry>
     <selectionEntry id="379f-2f77-67fd-6da0" name="Pycelle - Grand Maester" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="3ec5-70e1-c897-c354" name="Maester&apos;s Healing" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="Non-Combatant Unit">
+        <profile id="3ec5-70e1-c897-c354" name="Manipluation and Deception" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="Non-Combatant Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;Pycelle is a toad. But better a Lannister toad then a Tyrell toad, no?&quot; - Tyrion Lannister"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Whenever Pycelle claims a zone on the Tactics Board, you may restore D3 wounds to a friendly unit."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Whenever Pycelle claims a zone on the Tactics Board, 1 enemy Combat Unit becomes Weakened."/>
           </characteristics>
         </profile>
       </profiles>
@@ -1303,65 +1454,6 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8e79-a259-262f-87a7" name="Ser Gregor Clegane - Mounted Behemoth" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="5a4f-8bb8-2e67-c73f" name="Unstoppable Fury" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;That beast&apos;s head would make a noble gift for all the people of the realm, I vow.&quot; - Brynden Tully"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Each time this unit attacks with melee, it deals D3 additional automatic wounds."/>
-            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Cavalry"/>
-          </characteristics>
-        </profile>
-        <profile id="cd04-3108-1eab-2891" name="Overrun" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;That beast&apos;s head would make a noble gift for all the people of the realm, I vow.&quot; - Brynden Tully"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Order: When this unit destroys an enemy, it may perform 1 free Charge action instead of a Maneuver action."/>
-            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Cavalry"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="5932-522c-a655-64cb" name="New CategoryLink" hidden="false" targetId="ea8e-f716-950b-84c2" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="2173-663c-a4cc-25b4" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="5a3c-c8fc-7b41-4590" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
@@ -1375,11 +1467,10 @@
           <characteristics>
             <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5"/>
             <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="2+"/>
-            <characteristic name="Resilience" characteristicTypeId="9e83-6e91-e782-7aec" value="1"/>
-            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="5+"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="3+"/>
           </characteristics>
         </profile>
-        <profile id="bec3-5b22-d3fd-b2ab" name="Greatsword" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+        <profile id="bec3-5b22-d3fd-b2ab" name="Cleaving Blows" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1401,21 +1492,17 @@
           <modifiers/>
           <description>Ser Gregor Clegane truly towers over ordinary men. Such a massive man requires a mount of similar proportions, though the largest of steeds appear as mere ponies beneath the Mountain That Rides. Units under the Mountain&apos;s command hit like an avalanche, and leave similar destruction in their wake. The Mountain is an utterly merciless opponent, a true weapon of muscle and steel.</description>
         </rule>
+        <rule id="357a-13a6-d73b-cb32" name="The Mountain That Rides" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model has 4 Wounds.
+At the start of this model&apos;s activation, it may take a free Maneuver action.</description>
+        </rule>
       </rules>
       <infoLinks>
-        <infoLink id="b278-20d6-c097-cd5d" name="Greatsword" hidden="false" targetId="8021-4b67-1762-4d93" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="0e0b-9a33-b2b2-550e" name="Swift Advance" hidden="false" targetId="f4d1-1bee-0d6b-7291" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="876b-c3bb-1ad6-dd65" name="Wounds [4]" hidden="false" targetId="af7c-8f43-50c6-3718" type="rule">
+        <infoLink id="b278-20d6-c097-cd5d" name="Cleaving Blows" hidden="false" targetId="8021-4b67-1762-4d93" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1425,21 +1512,14 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="6cfa-b84d-acad-5a37" name="New CategoryLink" hidden="false" targetId="ea8e-f716-950b-84c2" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="9efc-a208-a47b-0a75" name="New CategoryLink" hidden="false" targetId="046c-b849-cb68-2b74" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="9977-21c7-40db-4aa0" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9909-7656-d4ca-7ea4" name="Cavalry Unit" hidden="false" targetId="ea8e-f716-950b-84c2" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1454,6 +1534,106 @@
         <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="843e-6a6b-f7c1-7d7f" name="Gregor Clegane - Mounted Behemoth" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="67f7-170a-33a0-828b" name="Order: Overrun" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;That beast&apos;s head would make a noble gift for all the people of the realm, I vow.&quot; - Brynden Tully"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit destroys an enemy: Instead of Maneuvering, this unit may pivot and make a free Charge action."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="caca-3d9d-9093-7335" name="Unstoppable Fury" hidden="false" targetId="c627-460b-fd0a-56f8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ebec-c748-3bc9-f094" name="House Lannister" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4d6b-abf4-0ae7-4dfe" name="Unit Attachment" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5455-f7cc-24df-0b86" name="Tyrion Lannister - The Giant of Lannister" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3d6d-4e33-c7f9-fbbc" name="Order: Adaptive Planning" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;I think he is a giant come among us, here at the end of the world.&quot; - Maestar Aemon"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="While this unit is engaged: You may expend a Condition token on an enemy engaged with this unit as if it were any other Condition token."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="1974-309e-b4d0-1e39" name="Order: Counterstrategy" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;I think he is a giant come among us, here at the end of the world.&quot; - Maestar Aemon"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When an enemy engaged with this unit uses an Order or is targeted by a Tactics card: Roll a die. On a [3+], cancel that Order/Tactics card."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2353-0dc2-7f66-fec7" name="House Lannister" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e42f-9030-c3ac-3987" name="Unit Attachment" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -1462,58 +1642,28 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Gains Critical Blow and Sundering on Charge attacks.
-- Critical Blow (Rolls of [6] deal 2 Hits).
-- Sundering (Enemies Hit suffer [-1] to their Defense Saves).</description>
-    </rule>
-    <rule id="4a3b-ab25-5144-aad7" name="Dominance of the Crown" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>If you control [Crown], enemies suffer [-1] to Hit when attacking this unit.</description>
-    </rule>
-    <rule id="f4d1-1bee-0d6b-7291" name="Swift Advance" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>At the beginning of this unit&apos;s activation, it may make a free Maneuver action.</description>
-    </rule>
-    <rule id="4383-093a-ef31-3460" name="Legion Formation" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>This unit may begin Banded with another unit of Lannister Guards. While Banded, enemies suffer [-2] to Panic Tests caused by Lannister Supremacy.</description>
+      <description>When Charging, this attack rolls [+3] dice, and gains Critical Blow (Rolls of 6 deal 2 Hits] and Sundering (Defenders suffer [-1] to their Defense Save rolls.)</description>
     </rule>
     <rule id="b6ed-72b9-fb22-92be" name="Lannister Supremacy" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If this unit is attacked and does not lose a rank (including losses from their Panic Test), the attacker must immediately make a Panict Test.</description>
+      <description>If this unit is attacked and passes its Panic Test, the attacker must make a Panic Test with [-2] to their roll.</description>
     </rule>
     <rule id="7192-d46d-ac00-c683" name="Halberd" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>- Sundering (Enemies suffer [-1] to their Defense Saves).</description>
+      <description>- Sundering (Defenders suffer [-1] to their Defense Save rolls).</description>
     </rule>
-    <rule id="1f4b-d1f2-1262-826a" name="Set For Charge" hidden="false">
+    <rule id="1f4b-d1f2-1262-826a" name="Order: Set For Charge" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If this unit is unengaged and charged from the Front or Flank, it may make 1 Attack action against that enemy before they resolve their charge attack.</description>
-    </rule>
-    <rule id="0e5e-0b74-98fe-5553" name="Greatsword" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>- Critical Strike (Rolls of [6] cause 2 Hits).</description>
+      <description>If this unit is unengaged and charged from the Front: This unit  may make 1 Attack action against that enemy before they resolve their Charge attack.</description>
     </rule>
     <rule id="afb7-3364-a5b7-d22b" name="Ferocious Charge" hidden="false">
       <profiles/>
@@ -1528,23 +1678,39 @@
       <infoLinks/>
       <modifiers/>
       <description>- Long Range
-- Sundering (Enemies suffer [-1] to Defense Saves).</description>
+- Sundering (Defenders suffer [-1] to Defense Save rolls).</description>
     </rule>
-    <rule id="8021-4b67-1762-4d93" name="Greatsword" hidden="false">
+    <rule id="8021-4b67-1762-4d93" name="Cleaving Blows" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>- Critical Blow (Rolls of [6] deal 2 Hits).
-- Enemies do not get Defense Saves against this attack.
-- Rolls [+2] dice on charge attacks.</description>
+- Defenders do not get Defense Saves.
+- Charged enemies become Panicked.</description>
     </rule>
-    <rule id="af7c-8f43-50c6-3718" name="Wounds [4]" hidden="false">
+    <rule id="1ec0-8118-a6bb-6694" name="Affiliation: House Clegane" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This unit may suffer [4] wounds before being killed.</description>
+      <description>This unit counts as a House Clegane unit.</description>
+    </rule>
+    <rule id="c627-460b-fd0a-56f8" name="Unstoppable Fury" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>- Charged enemies become Panicked.
+- When this unit makes a Melee Attack, it deals D3 additional Wounds.</description>
+    </rule>
+    <rule id="7287-821e-bf63-8a30" name="Vicious Methods" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>- Critical Blow (Rolls of 6 cause 2 Hits).
+- Vicious (Defenders suffer [-2] to their Panic Test).</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
