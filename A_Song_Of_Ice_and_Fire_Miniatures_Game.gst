@@ -116,6 +116,13 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="f8b9-2189-64a5-cac0" name="Free Folk" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="b8ca-af6a-433d-dfb4" name="Mercenaries Allies" hidden="false">
@@ -168,136 +175,19 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="e71e-d303-fe33-8f94" name="War Machine" hidden="false" targetId="1c00-c38c-112d-04d9" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="41de-3945-04cf-c584" name="Petyr Baelish - Littlefinger" hidden="false" targetId="9209-90d9-c752-1843" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c33-4657-2379-bb23" type="max"/>
-      </constraints>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="f9a6-1ccd-1692-92bd" name="Roose Bolton - Calculating Tactician" hidden="false" targetId="24f6-a6db-eed2-632a" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a755-a6ee-88e6-5d31" type="max"/>
-      </constraints>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="79bb-4f7b-760e-7c1d" name="Dreadfort Captain" hidden="false" targetId="d21f-61ff-f81f-e6bb" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="c3a6-015c-0cbb-168e" name="Ramsay Snow - Sadist" hidden="false" targetId="9b41-fa40-807a-e13b" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eee0-95a2-a792-2ee1" type="max"/>
-      </constraints>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="5d06-f29a-9164-844e" name="Ramsay Snow - The Bastard of Bolton" hidden="false" targetId="c9f7-1c23-0cb7-6b40" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01e1-efad-a972-8ea7" type="max"/>
-      </constraints>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="92cf-7bb3-a793-f19e" name="Roose Bolton - Lord of the Dreadfort" hidden="false" targetId="332a-508c-df39-956c" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a14-f1e2-8a1d-ba8b" type="max"/>
-      </constraints>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="a01a-4084-ff8c-2e6b" name="Bolton Cutthroat" hidden="false" targetId="4736-569b-81e4-13e8" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="c654-32ce-0429-8d89" name="House Bolton Bastard&apos;s Girls" hidden="false" targetId="68b1-4176-1eab-1b98" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="278f-e320-45d6-974b" name="The Flayed Men" hidden="false" targetId="c9f7-9e3a-65c3-d1be" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="4a67-e437-3d54-b114" name="Lord Varys - The Spider" hidden="false" targetId="737f-b44f-174b-c943" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5d8b-67fd-06c5-d739" type="max"/>
-      </constraints>
-      <categoryLinks/>
-    </entryLink>
     <entryLink id="38d6-148c-898a-19b0" name="The High Seneschal" hidden="false" targetId="eae7-3012-112e-7367" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="220b-98ae-79e9-04e9" name="Theon Greyjoy - Reek" hidden="false" targetId="9fcb-17d0-6691-0903" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="539c-3532-9d30-9156" name="Bronn - The Sellsword" hidden="false" targetId="dd99-2b45-ee55-f48f" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="9788-18ec-a6e4-7753" name="House Bolton Blackguards" hidden="false" targetId="701c-9c88-a9ce-a01a" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="8c39-7463-fd1f-4b1f" name="Brienne - Maid of Tarth" hidden="false" targetId="9397-5e0a-323b-772c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1229,6 +1119,13 @@ At the start of this unit&apos;s activation, it may make a free Maneuver action.
       <infoLinks/>
       <modifiers/>
       <description>When this unit is attacked with melee, for each Defense Save roll of a 6, the attacker suffers 1 Wound.</description>
+    </rule>
+    <rule id="6107-0f43-e306-39fd" name="Insignificant" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit is not worth Victory Points from Victory Through Combat.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>

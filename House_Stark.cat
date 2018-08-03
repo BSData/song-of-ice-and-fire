@@ -478,6 +478,130 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
+    <entryLink id="9aec-583c-2158-d3dd" name="Brienne - Maid of Tarth" hidden="false" targetId="9397-5e0a-323b-772c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="7c0b-91ac-78be-0f27" name="Bronn - The Sellsword" hidden="false" targetId="dd99-2b45-ee55-f48f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="9052-b899-8398-2e0b" name="Dreadfort Captain" hidden="false" targetId="d21f-61ff-f81f-e6bb" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2e41-5db9-be57-2936" name="House Bolton Bastard&apos;s Girls" hidden="false" targetId="68b1-4176-1eab-1b98" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8c23-716f-78ff-906b" name="House Bolton Blackguards" hidden="false" targetId="701c-9c88-a9ce-a01a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4273-fd1a-86e7-83dc" name="House Bolton Cutthroats" hidden="false" targetId="4736-569b-81e4-13e8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="15f1-c4c7-993c-3722" name="House Bolton Flayed Men" hidden="false" targetId="c9f7-9e3a-65c3-d1be" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="70af-838f-3d16-0d41" name="Lord Varys - The Spider" hidden="false" targetId="737f-b44f-174b-c943" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4694-9384-ad0b-829b" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="1fac-4afb-6457-ed20" name="Petyr Baelish - Littlefinger" hidden="false" targetId="9209-90d9-c752-1843" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2bc-0c87-a1ea-169a" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="49e8-9908-3b78-b6d9" name="Ramsay Snow - Sadist" hidden="false" targetId="9b41-fa40-807a-e13b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb26-4c88-6707-5e15" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="23fb-7b1d-9400-d95f" name="Ramsay Snow - The Bastard of Bolton" hidden="false" targetId="c9f7-1c23-0cb7-6b40" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acea-92e2-5640-0d7f" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="7a14-3013-85cb-9eb5" name="Roose Bolton - Lord of the Dreadfort" hidden="false" targetId="24f6-a6db-eed2-632a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d5b-27f4-7f7d-0f5a" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="bfdf-3352-4dcf-c300" name="Roose Bolton - The Leech Lord" hidden="false" targetId="332a-508c-df39-956c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e66a-51e6-07b5-213e" type="max"/>
+      </constraints>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="099b-bcd8-d04f-49ac" name="Theon Greyjoy - Reek" hidden="false" targetId="9fcb-17d0-6691-0903" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="b303-6b86-ecd6-9b94" name="Grey Wind" hidden="false" collective="false" type="unit">
