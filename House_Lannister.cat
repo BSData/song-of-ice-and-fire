@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f8ae-c5a8-459f-437a" name="House Lannister" revision="2" battleScribeVersion="2.01" authorName="Lucas Massa - The Lord of the Miniatures" authorContact="lsmassa@gmail.com" authorUrl="https://www.facebook.com/thelordoftheminiatures/" gameSystemId="2264-d446-544f-f0ab" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f8ae-c5a8-459f-437a" name="House Lannister" revision="2" battleScribeVersion="2.01" authorName="Jeremy Sadler" authorContact="jmsadler@gmail.com" authorUrl="https://www.facebook.com/groups/ASOIAFTMG" gameSystemId="2264-d446-544f-f0ab" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -470,7 +470,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="8.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0ca3-de68-5970-5bd2" name="Lannister Guardsmen" hidden="false" collective="false" type="unit">
@@ -539,7 +539,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="5.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0f24-0484-d3e5-858a" name="Lannister Halberdiers" hidden="false" collective="false" type="unit">
@@ -614,7 +614,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="afe5-a5a6-1759-606d" name="House Clegane Mountain&apos;s Men" hidden="false" collective="false" type="unit">
@@ -683,7 +683,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae0f-95b8-3eaf-b79f" name="Cersei Lannister - Queen Regent" hidden="false" collective="false" type="model">
@@ -723,7 +723,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da23-29ab-3ad2-fcfe" name="The High Sparrow" hidden="false" collective="false" type="model">
@@ -735,7 +735,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;I Seldom feel so close to gods as when I am being whipped for mine own wickeness...&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Influence (When this unit claims a Tactics Zone, attach this card to a Combat Unit until the end of the road): While Influencing a unit, they gain [+2] to Morale Test rolls."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Influence (When this unit claims a Tactics Zone, attach this card to a Combat Unit until the end of the road): While Influencing a unit, they gain +2 to Morale Test rolls."/>
           </characteristics>
         </profile>
         <profile id="901b-43e8-f28d-bf1d" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
@@ -779,7 +779,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c230-a7af-3c02-7457" name="Tyrion Lannister - The Imp" hidden="false" collective="false" type="model">
@@ -791,7 +791,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;He is bigger man than he seems, I think.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Your Tactics Hand size is increased by [+1]. (You start the game with 4 cards and may draw up to 4 cards when re-filling your hand) Tyrion begins the game with 2 Order tokens on him. When Tyrion activates, you may discard 1 Order token from him to force your opponent to reveal 2 Tactics cards from their hand (or 1 if they only have 1). Discard 1 of those cards."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Your Tactics Hand size is increased by +1. (You start the game with 4 cards and may draw up to 4 cards when re-filling your hand) Tyrion begins the game with 2 Order tokens on him. When Tyrion activates, you may discard 1 Order token from him to force your opponent to reveal 2 Tactics cards from their hand (or 1 if they only have 1). Discard 1 of those cards."/>
           </characteristics>
         </profile>
       </profiles>
@@ -819,7 +819,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c1c-c50c-a915-4298" name="Tywin Lannister - The Great Lion" hidden="false" collective="false" type="model">
@@ -859,7 +859,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eb61-d8ee-bb5a-eb4d" name="Assault Veteran" hidden="false" collective="false" type="upgrade">
@@ -900,7 +900,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fab5-841e-87a8-2728" name="Guard Captain" hidden="false" collective="false" type="upgrade">
@@ -941,7 +941,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9a6d-9780-747f-fa58" name="Sandor Clegane - The Hound" hidden="false" collective="false" type="upgrade">
@@ -953,7 +953,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Killing is the sweetest thing there is.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Before rolling dice, this unit&apos;s Melee Attack may gain [+1] to Hit and Vicious (Defenders suffer [-2] to their Panic Test). If it does, after this attack is completed, this unit suffers D3 Wounds."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Before rolling dice, this unit&apos;s Melee Attack may gain +1 to Hit and Vicious (Defenders suffer -2 to their Panic Test). If it does, after this attack is completed, this unit suffers D3 Wounds."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -989,7 +989,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f3ee-391c-3736-6a50" name="Gregor Clegane - Lord Tywin&apos;s Mad Dog" hidden="false" collective="false" type="upgrade">
@@ -1041,7 +1041,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8967-3885-9024-8e22" name="Gregor Clegane - The Mountain" hidden="false" collective="false" type="upgrade">
@@ -1100,7 +1100,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d56-5391-f4ed-ecb1" name="Jaime Lannister - The Young Lion" hidden="false" collective="false" type="upgrade">
@@ -1112,7 +1112,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;There are no men like me. There&apos;s only me.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit makes a Melee Attack, it is always treated as having 1 additional rank. If it already has full ranks, it rolls [+2] attack dice."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit makes a Melee Attack, it is always treated as having 1 additional rank. If it already has full ranks, it rolls +2 attack dice."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -1148,7 +1148,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca2d-92a6-6e4e-28a5" name="Jaime Lannister - The Kingslayer" hidden="false" collective="false" type="upgrade">
@@ -1160,7 +1160,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;They called him the Lion of Lannister to his face and whispered Kingslayer behind his back.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit is attacked with melee, after Attack dice are rolled: For each blocked Hit, the attacker suffers [1] automatic Hit."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit is attacked with melee, after Attack dice are rolled: For each blocked Hit, the attacker suffers 1 automatic Hit."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -1212,7 +1212,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="37e2-35e0-e85f-46ae" name="Tywin Lannister - Lord of Casterly Rock" hidden="false" collective="false" type="upgrade">
@@ -1276,7 +1276,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d200-fe67-989b-c3d7" name="Lannister Crossbowmen" hidden="false" collective="false" type="unit">
@@ -1358,7 +1358,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d89c-d592-f8d0-4e18" name="Tyrion Lannister - Halfman" hidden="false" collective="false" type="upgrade">
@@ -1370,7 +1370,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;Those are brave men. Let&apos;s go kill them.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="When an opponent plays a Tactics Card: Roll a die. On a [5+] cancel the effect of that Tactics Card. You may discard a Tactics Card to re-roll this die (this may be repeated)."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="When an opponent plays a Tactics Card: Roll a die. On a 5+ cancel the effect of that Tactics Card. You may discard a Tactics Card to re-roll this die (this may be repeated)."/>
           </characteristics>
         </profile>
         <profile id="c9ff-e4b9-ca4b-e5a4" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
@@ -1414,7 +1414,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="379f-2f77-67fd-6da0" name="Pycelle - Grand Maester" hidden="false" collective="false" type="model">
@@ -1454,7 +1454,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c27f-f0ef-7286-1c26" name="Gregor Clegane - The Mountain That Rides" hidden="false" collective="false" type="unit">
@@ -1531,7 +1531,7 @@ At the start of this model&apos;s activation, it may take a free Maneuver action
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="843e-6a6b-f7c1-7d7f" name="Gregor Clegane - Mounted Behemoth" hidden="false" collective="false" type="upgrade">
@@ -1579,7 +1579,7 @@ At the start of this model&apos;s activation, it may take a free Maneuver action
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5455-f7cc-24df-0b86" name="Tyrion Lannister - The Giant of Lannister" hidden="false" collective="false" type="upgrade">
@@ -1602,7 +1602,7 @@ At the start of this model&apos;s activation, it may take a free Maneuver action
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;I think he is a giant come among us, here at the end of the world.&quot; - Maestar Aemon"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When an enemy engaged with this unit uses an Order or is targeted by a Tactics card: Roll a die. On a [3+], cancel that Order/Tactics card."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When an enemy engaged with this unit uses an Order or is targeted by a Tactics card: Roll a die. On a 3+, cancel that Order/Tactics card."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f"/>
           </characteristics>
         </profile>
@@ -1631,7 +1631,7 @@ At the start of this model&apos;s activation, it may take a free Maneuver action
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f77a-49b1-fde2-7a7f" name="Pyromancers" hidden="false" collective="false" type="unit">
@@ -1724,7 +1724,7 @@ At the start of this model&apos;s activation, it may take a free Maneuver action
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

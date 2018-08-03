@@ -62,19 +62,19 @@
   </forceEntries>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="7597-2d0b-db59-ee8c" name="Grey Wind" hidden="true" targetId="b303-6b86-ecd6-9b94" type="selectionEntry">
+    <entryLink id="7597-2d0b-db59-ee8c" name="Grey Wind" hidden="false" targetId="b303-6b86-ecd6-9b94" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers>
-        <modifier type="set" field="hidden" value="false">
+        <modifier type="append" field="name" value="(Requires Robb Stark)">
           <repeats/>
           <conditions/>
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e7-322d-36e7-60c2" type="greaterThan"/>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3e2b-8d91-738d-5141" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e7-322d-36e7-60c2" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3e2b-8d91-738d-5141" type="lessThan"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -368,15 +368,15 @@
       </constraints>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="b117-fe87-c5a6-571c" name="Summer" hidden="true" targetId="bd0f-cd85-97e6-b074" type="selectionEntry">
+    <entryLink id="b117-fe87-c5a6-571c" name="Summer" hidden="false" targetId="bd0f-cd85-97e6-b074" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers>
-        <modifier type="set" field="hidden" value="false">
+        <modifier type="append" field="name" value="(Requires Bran and Hodor)">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="83b3-014e-7c49-69cf" type="greaterThan"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="83b3-014e-7c49-69cf" type="lessThan"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -454,7 +454,7 @@
       </constraints>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="c6c1-e7e7-4255-2e7f" name="Eddard&apos;s Honor Guard" hidden="false" targetId="59a3-4d95-e56b-d59c" type="selectionEntry">
+    <entryLink id="76e2-d1eb-ee42-a081" name="Crannogman Warden" hidden="false" targetId="0ccd-5310-3dd1-6f6f" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -462,11 +462,19 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="76e2-d1eb-ee42-a081" name="Crannogman Warden" hidden="false" targetId="0ccd-5310-3dd1-6f6f" type="selectionEntry">
+    <entryLink id="1be5-1c36-3487-e516" name="Eddard&apos;s Honor Guard" hidden="false" targetId="53b3-b517-84ba-8b1c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="append" field="name" value="(requires Eddard Stark - Lord of Winterfell)">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5f7e-5515-30d8-48f1" type="lessThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks/>
     </entryLink>
@@ -544,7 +552,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7b1a-6605-a20d-a8b1" name="Stark Bowmen" hidden="false" collective="false" type="unit">
@@ -626,7 +634,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9f2a-dd6a-09e4-ff59" name="Stark Outriders" hidden="false" collective="false" type="unit">
@@ -707,7 +715,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5389-7da8-309b-be01" name="Stark Sworn Swords" hidden="false" collective="false" type="unit">
@@ -776,7 +784,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="5.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e442-e8bf-ccfa-7983" name="House Tully Sworn Shield" hidden="false" collective="false" type="unit">
@@ -845,7 +853,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7699-7ae6-2762-06b6" name="House Umber Berserkers" hidden="false" collective="false" type="unit">
@@ -914,7 +922,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="28cd-8d93-6eb4-6e8c" name="Catelyn Stark - Lady of Winterfell" hidden="false" collective="false" type="model">
@@ -954,7 +962,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ba1-1787-c44c-f6cb" name="Howland Reed - Lord of the Crannogs" hidden="false" collective="false" type="model">
@@ -966,7 +974,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;You never see them, but they see you. Those who go into the bogs after them get lost and never come out.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Influence (When this unit claims a Tactics Zone, attach this card to a Combat Unit until the end of the round): While Influencing a unit, that unit&apos;s attacks suffer [-1] to Hit."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Influence (When this unit claims a Tactics Zone, attach this card to a Combat Unit until the end of the round): While Influencing a unit, that unit&apos;s attacks suffer -1 to Hit."/>
           </characteristics>
         </profile>
         <profile id="ef3a-fcbe-c5fb-6647" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
@@ -1010,7 +1018,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="893e-081b-036a-48d2" name="Sansa Stark - Little Bird" hidden="false" collective="false" type="model">
@@ -1050,7 +1058,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6c1-d20d-a9c0-1531" name="Eddard Stark - Lord of Winterfell" hidden="false" collective="false" type="upgrade">
@@ -1107,7 +1115,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e3f8-f005-25fb-dbb0" name="Greatjon Umber - Fearless Bannerman" hidden="false" collective="false" type="upgrade">
@@ -1155,7 +1163,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce24-2427-3580-4492" name="Greatjon Umber - Lord of Last Hearth" hidden="false" collective="false" type="upgrade">
@@ -1212,7 +1220,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1dac-399c-a8d9-d7ef" name="Maege Mormont - The She-bear" hidden="false" collective="false" type="upgrade">
@@ -1224,7 +1232,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Maege is a hoary old snark, stubborn, short-tempered, and willful.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit passes a Panic Test: 1 enemy engage with this unit suffers [D3] Wounds."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit passes a Panic Test: 1 enemy engage with this unit suffers D3 Wounds."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -1260,7 +1268,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e2b-8d91-738d-5141" name="Robb Stark - The Young Wolf" hidden="false" collective="false" type="upgrade">
@@ -1272,7 +1280,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;No sword is strong until it&apos;s been tempered.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="If targeted by [MANEUVER], this unit may make a free Charge action instead of a Maneuver/Retreat action."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="If targeted by Maneuver Tactics Zone, this unit may make a free Charge action instead of a Maneuver/Retreat action."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -1308,7 +1316,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="17e7-322d-36e7-60c2" name="Robb Stark - The Wolf Lord" hidden="false" collective="false" type="upgrade">
@@ -1365,7 +1373,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca85-2d34-0f96-116d" name="Sworn Sword Captain" hidden="false" collective="false" type="upgrade">
@@ -1406,7 +1414,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e9c1-626a-340a-24ee" name="Umber Champion" hidden="false" collective="false" type="upgrade">
@@ -1447,7 +1455,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca10-331d-088c-53f2" name="Brynden Tully - The Blackfish" hidden="false" collective="false" type="upgrade">
@@ -1517,7 +1525,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="96bc-cfc2-e986-0aae" name="Brynden Tully - Unyielding Knight" hidden="false" collective="false" type="upgrade">
@@ -1529,7 +1537,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Lift your eyes, and you will see the direwolf still flies above our walls!&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Order: If this unit began the turn engaged: This unit&apos;s Melee Attacks gain [+1] to Hit and roll [+2] dice."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Order: If this unit began the turn engaged: This unit&apos;s Melee Attacks gain +1 to Hit and roll +2 dice."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -1565,7 +1573,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a5d-ebe0-d1cb-78d0" name="Rodrik Cassel - Master-At-Arms" hidden="false" collective="false" type="upgrade">
@@ -1629,7 +1637,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a9c-ca2b-3a2e-75f1" name="Rodrik Cassel - Combat Veteran" hidden="false" collective="false" type="model">
@@ -1641,7 +1649,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;There is no better trainer than Rodrik.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="If you claimed [COMBAT], 1 enemy Combat Unit becomes Vulnerably.  Influence (When this unit claims a Tactics Zone, attach this card to a Combat Unit until the end of the road): While Influencing a unit, that unit&apos;s Melee Attacks gain Critical Blows (Rolls of 6 deal 2 Hits)."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="If you claimed Combat Tactics Zone, 1 enemy Combat Unit becomes Vulnerable.  Influence (When this unit claims a Tactics Zone, attach this card to a Combat Unit until the end of the road): While Influencing a unit, that unit&apos;s Melee Attacks gain Critical Blows (Rolls of 6 deal 2 Hits)."/>
           </characteristics>
         </profile>
       </profiles>
@@ -1669,7 +1677,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c745-c94f-3331-d69c" name="Bran and Hodor - Protector and Ward" hidden="false" collective="false" type="upgrade">
@@ -1692,7 +1700,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Hodor. Hodor Hodor.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Once per game, when this unit is successfully charged, the attacker automatically suffer a Disorderly Charge and rolls [-2] Attack dice. Bran&apos;s unit may no longer be target by Bran&apos;s Skinchanging."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Once per game, when this unit is successfully charged, the attacker automatically suffer a Disorderly Charge and rolls -2 Attack dice. Bran&apos;s unit may no longer be target by Bran&apos;s Skinchanging."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -1721,7 +1729,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bd0f-cd85-97e6-b074" name="Summer" hidden="false" collective="false" type="unit">
@@ -1796,7 +1804,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="810f-5cdb-a940-df47" name="Brynden Tully - Vanguard Infiltrator" hidden="false" collective="false" type="upgrade">
@@ -1851,7 +1859,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="85d1-e92a-e427-db17" name="Brynden Tully - Outrider Commander" hidden="false" collective="false" type="upgrade">
@@ -1863,7 +1871,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;It is no good hammering your sword into a plowshare if you must forge it again on the morrow.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit gains [+1][SPEED] and ignores the Dangerous, Rough, and Hindering keywords for Terrain pieces."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit gains +1 Speed and ignores the Dangerous, Rough, and Hindering keywords for Terrain pieces."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Cavalry"/>
           </characteristics>
         </profile>
@@ -1922,7 +1930,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bdcf-fabe-e781-90bf" name="Eddard Stark - Warden of the North" hidden="false" collective="false" type="model">
@@ -1934,7 +1942,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;You wear your honor like a suit of armor, Stark.&quot; - Petyr Baelish"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Eddard begins the game with 3 Order tokens on him. When a friendly unit passes a Morale Test or successfully Charges, you may remove 1 Order token from Eddard to restore up to [2] Wounds to that unit. If that unit has only 1 remaining rank, restore [D3+1] Wounds instead."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Eddard begins the game with 3 Order tokens on him. When a friendly unit passes a Morale Test or successfully Charges, you may remove 1 Order token from Eddard to restore up to 2 Wounds to that unit. If that unit has only 1 remaining rank, restore D3+1 Wounds instead."/>
           </characteristics>
         </profile>
       </profiles>
@@ -1962,82 +1970,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="59a3-4d95-e56b-d59c" name="Eddard&apos;s Honor Guard" hidden="false" collective="false" type="unit">
-      <profiles>
-        <profile id="55bf-0676-8e54-d7d9" name="Eddard&apos;s Honor Guard" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5"/>
-            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="3+"/>
-            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="6+"/>
-          </characteristics>
-        </profile>
-        <profile id="84fd-f0b3-da64-ccdb" name="Stark Fury" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="8"/>
-            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="7"/>
-            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="6"/>
-            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="4+"/>
-            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="4d80-eb36-4b1e-8ba5" name="Description" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Chosen men from House Stark&apos;s own ranks, Lord Eddard Stark&apos;s honor guard have proven themselves as warriors of the highest integrity. They can be relied upon to hold the field against long odds, and dish out punishment as well as they can take it. Every man would willingly lay down his life for their lord, all the more so as Lord Eddard Stark would do the same. One can rely on the Honor Guard as a more-than-capable vanguard to any Stark force.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="40f2-c6d1-eb6e-efbb" name="Stark Fury" hidden="false" targetId="70a3-f71e-01ff-1e32" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="2f1d-2e5c-a76c-27ee" name="Fearless" hidden="false" targetId="4ace-5dad-25a3-a29a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="8906-1689-b428-37ba" name="House Stark" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="ffd1-1321-d8ad-b159" name="Infantry Unit" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0ccd-5310-3dd1-6f6f" name="Crannogman Warden" hidden="false" collective="false" type="upgrade">
@@ -2078,7 +2011,89 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="53b3-b517-84ba-8b1c" name="Eddard&apos;s Honor Guard" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="1c2e-cf5b-53d5-d493" name="Eddard&apos;s Honor Guard" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="3+"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="6+"/>
+          </characteristics>
+        </profile>
+        <profile id="69d1-c8b4-74a6-05a4" name="Stark Fury" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="8"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="7"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="6"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="4+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5178-8af8-de13-dc54" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Chosen men from House Stark&apos;s own ranks, Lord Eddard Stark&apos;s honor guard have proven themselves as warriors of the highest integrity. They can be relied upon to hold the field against long odds, and dish out punishment as well as they can take it. Every man would willingly lay down his life for their lord, all the more so as Lord Eddard Stark would do the same. One can rely on the Honor Guard as a more-than-capable vanguard to any Stark force.</description>
+        </rule>
+        <rule id="25d1-4650-f718-b43d" name="Character" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Mary only be fielded in an army including Eddard Stark, Lord of Winterfell. Eddard must be attached to this unit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4fe6-5dae-1946-04f2" name="Stark Fury" hidden="false" targetId="70a3-f71e-01ff-1e32" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e5d8-3c00-3084-393b" name="Fearless" hidden="false" targetId="4ace-5dad-25a3-a29a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="955b-b070-e28e-f103" name="House Stark" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a398-8b6f-93ea-160d" name="Infantry Unit" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2089,7 +2104,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This unit has [2] Wounds.
+      <description>This unit has 2 Wounds.
 At the start of this model&apos;s activation, it may make a free Maneuver action.</description>
     </rule>
     <rule id="b181-ec2f-6843-f16d" name="Stalking Assault" hidden="false">
@@ -2105,7 +2120,7 @@ At the start of this model&apos;s activation, it may make a free Maneuver action
       <infoLinks/>
       <modifiers/>
       <description>- Long Range
-- If this unit does not shift before attacking, this attack roles [+4] dice.
+- If this unit does not shift before attacking, this attack roles +4 dice.
 - This attack ignores intervening units and Terrain.</description>
     </rule>
     <rule id="7c13-7d9f-4bfd-1dfd" name="Order: Swift Retreat" hidden="false">
@@ -2127,28 +2142,28 @@ At the start of this model&apos;s activation, it may make a free Maneuver action
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Before rolling dice, this attack my gain [+1] to Hit and Critical Blow (Rolls of 6 deal 2 Hits). If it does, after this attack has been completed, unless this unit only has 1 remaining rank, it suffers [D3] Wounds.</description>
+      <description>Before rolling dice, this attack my gain +1 to Hit and Critical Blow (Rolls of 6 deal 2 Hits). If it does, after this attack has been completed, unless this unit only has 1 remaining rank, it suffers D3 Wounds.</description>
     </rule>
     <rule id="97e5-a54e-c7c2-c58c" name="Order: Shieldwall" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When this unit is attacked from the Front, after Attack dice are rolled: Automatically block [D3] Hits.</description>
+      <description>When this unit is attacked from the Front, after Attack dice are rolled: Automatically block D3 Hits.</description>
     </rule>
     <rule id="6199-8674-78cf-64a7" name="Berserker Axes" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>- Sundering (Defenders suffer [-1] to their Defense Save rolls).</description>
+      <description>- Sundering (Defenders suffer -1 to their Defense Save rolls).</description>
     </rule>
     <rule id="f723-7af9-452a-3682" name="Bran&apos;s Protector" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Each time Bran Stark&apos;s unit is attacked, after that attack is completed, Summer may make 1 free Attack or Charge action targeting the attacker, and rolls [+2] dice.</description>
+      <description>Each time Bran Stark&apos;s unit is attacked, after that attack is completed, Summer may make 1 free Attack or Charge action targeting the attacker, and rolls +2 dice.</description>
     </rule>
     <rule id="36a8-c076-b9c9-1c4a" name="Affiliation: House Tully" hidden="false">
       <profiles/>
@@ -2162,7 +2177,7 @@ At the start of this model&apos;s activation, it may make a free Maneuver action
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This unit gains [+2] to Morale Test rolls.</description>
+      <description>This unit gains +2 to Morale Test rolls.</description>
     </rule>
     <rule id="7797-44e1-4dbf-7cb0" name="Outflank: Stark Outriders" hidden="false">
       <profiles/>
@@ -2176,7 +2191,7 @@ At the start of this model&apos;s activation, it may make a free Maneuver action
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If this unit is targeted by [COMBAT], it may make a free Charge action instead of an Attack action.</description>
+      <description>If this unit is targeted by Combat Tactics Zone, it may make a free Charge action instead of an Attack action.</description>
     </rule>
     <rule id="1425-b329-73cc-1c30" name="Affiliation: House Umber" hidden="false">
       <profiles/>
@@ -2190,7 +2205,7 @@ At the start of this model&apos;s activation, it may make a free Maneuver action
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This unit gains [+1][SPEED] and may always pivot before Marching.</description>
+      <description>This unit gains +1 Speed, and may always pivot before Marching.</description>
     </rule>
     <rule id="c7ef-58e9-a1ab-68d7" name="Expose Opening" hidden="false">
       <profiles/>
@@ -2204,7 +2219,7 @@ At the start of this model&apos;s activation, it may make a free Maneuver action
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If targeted by [MANEUVER], this unit may make a free Charge action instead of a Maneuver/Retreat action.</description>
+      <description>If targeted by Maneuver Tactics Zone, this unit may make a free Charge action instead of a Maneuver/Retreat action.</description>
     </rule>
     <rule id="4ace-5dad-25a3-a29a" name="Fearless" hidden="false">
       <profiles/>

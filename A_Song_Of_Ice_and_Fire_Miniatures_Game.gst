@@ -4,7 +4,7 @@
   <rules/>
   <infoLinks/>
   <costTypes>
-    <costType id="b577-9152-be95-5bbf" name="Pts" defaultCostLimit="-1.0"/>
+    <costType id="b577-9152-be95-5bbf" name=" Points" defaultCostLimit="-1.0"/>
   </costTypes>
   <profileTypes>
     <profileType id="e3e9-9e7b-99e0-c84a" name="Unit">
@@ -289,7 +289,7 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="ab61-f047-f9ae-2288" name="Brienne - Maid of Tarth" hidden="false" targetId="9397-5e0a-323b-772c" type="selectionEntry">
+    <entryLink id="9788-18ec-a6e4-7753" name="House Bolton Blackguards" hidden="false" targetId="701c-9c88-a9ce-a01a" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -297,7 +297,7 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="9788-18ec-a6e4-7753" name="House Bolton Blackguards" hidden="false" targetId="701c-9c88-a9ce-a01a" type="selectionEntry">
+    <entryLink id="8c39-7463-fd1f-4b1f" name="Brienne - Maid of Tarth" hidden="false" targetId="9397-5e0a-323b-772c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -344,7 +344,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24f6-a6db-eed2-632a" name="Roose Bolton - Lord of the Dreadfort" hidden="false" collective="false" type="model">
@@ -400,7 +400,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d21f-61ff-f81f-e6bb" name="Dreadfort Captain" hidden="false" collective="false" type="upgrade">
@@ -436,7 +436,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9b41-fa40-807a-e13b" name="Ramsay Snow - Sadist" hidden="false" collective="false" type="upgrade">
@@ -491,7 +491,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c9f7-1c23-0cb7-6b40" name="Ramsay Snow - The Bastard of Bolton" hidden="false" collective="false" type="model">
@@ -548,7 +548,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="332a-508c-df39-956c" name="Roose Bolton - The Leech Lord" hidden="false" collective="false" type="upgrade">
@@ -602,7 +602,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4736-569b-81e4-13e8" name="House Bolton Cutthroats" hidden="false" collective="false" type="unit">
@@ -671,7 +671,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="5.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="68b1-4176-1eab-1b98" name="House Bolton Bastard&apos;s Girls" hidden="false" collective="false" type="unit">
@@ -765,7 +765,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c9f7-9e3a-65c3-d1be" name="House Bolton Flayed Men" hidden="false" collective="false" type="unit">
@@ -846,7 +846,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="10.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="737f-b44f-174b-c943" name="Lord Varys - The Spider" hidden="false" collective="false" type="model">
@@ -858,7 +858,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;Varys has ways of learning things that no man could know.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Varys begins the game with 4 Order tokens on him.  When an enemy NCU claims a zone on the Tactics Board, you may expend 1 Order token on Varys and roll a die. On a 3+, choose 1: - That NCU loses all Abilities until the end of the round. - Cancel the effect oif the claimed zone. This may be repeated if unsuccessful."/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8" value="Varys begins the game with 4 Order tokens on him.  When an enemy NCU claims a zone on the Tactics Board, you may expend 1 Order token on Varys and roll a die. On a 3+, choose 1: - That NCU loses all Abilities until the end of the round. - Cancel the effect of the claimed zone. This may be repeated if unsuccessful."/>
           </characteristics>
         </profile>
       </profiles>
@@ -886,7 +886,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eae7-3012-112e-7367" name="The High Seneschal" hidden="false" collective="false" type="model">
@@ -926,7 +926,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9fcb-17d0-6691-0903" name="Theon Greyjoy - Reek" hidden="false" collective="false" type="upgrade">
@@ -938,7 +938,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;I&apos;m not him, I&apos;m not the turncloak, he died at Winterfell. My name is Reek!&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit activates, 1 enemy within Long Range becomes Panicked. Roll a die. On a [5+], kill Theon (moving 1 model from the back of the unit to fill his slot)."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit activates, 1 enemy within Long Range becomes Panicked. Roll a die. On a 5+, kill Theon (moving 1 model from the back of the unit to fill his slot)."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -975,7 +975,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd99-2b45-ee55-f48f" name="Bronn - The Sellsword" hidden="false" collective="false" type="upgrade">
@@ -987,7 +987,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;I sell my sword, I don&apos;t give it away.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Whiel you control [WEALTH], this unit gains [+1][SPEED], rolls [+2] Attack dice, and gains [+2] to Morale Test rolls."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Whiel you control Wealth Tactics Zone, this unit gains +1 Speed, rolls +2 Attack dice, and gains +2 to Morale Test rolls."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -1016,7 +1016,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9397-5e0a-323b-772c" name="Brienne - Maid of Tarth" hidden="false" collective="false" type="upgrade">
@@ -1028,7 +1028,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;A true knight is sworn to protect those who are weaker than himself, or die in the attempt.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Before deployment, select 1 enemy unit. Until the end of the game, this unit&apos;s Melee Attacks gain [+1] to Hit and roll [+2] dice against that enemy."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="Before deployment, select 1 enemy unit. Until the end of the game, this unit&apos;s Melee Attacks gain +1 to Hit and roll +2 dice against that enemy."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -1039,7 +1039,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;A true knight is sworn to protect those who are weaker than himself, or die in the attempt.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit gains [+2] to Morale Test rolls."/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This unit gains +2 to Morale Test rolls."/>
             <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
           </characteristics>
         </profile>
@@ -1068,7 +1068,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="701c-9c88-a9ce-a01a" name="House Bolton Blackguards" hidden="false" collective="false" type="unit">
@@ -1143,7 +1143,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1155,7 +1155,7 @@
       <infoLinks/>
       <modifiers/>
       <description>- If this attack targets an enemy that has not activated this round, that enemy become Vulnerable.
-- Vicious (Defenders suffer [-2] to their Panic Tests).</description>
+- Vicious (Defenders suffer -2 to their Panic Tests).</description>
     </rule>
     <rule id="ab91-68f9-d096-999f" name="Spread Fear" hidden="false">
       <profiles/>
@@ -1170,7 +1170,7 @@
       <infoLinks/>
       <modifiers/>
       <description>- Long Range
-- If the defener rolls a [1] on any Defense Saves, they become Vulnerable.</description>
+- If the defener rolls a 1 on any Defense Saves, they become Vulnerable.</description>
     </rule>
     <rule id="96df-b554-7ae0-905a" name="Master and Pets" hidden="false">
       <profiles/>
@@ -1191,8 +1191,8 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>- Critical Blow (Rolls of [6] cause 2 Hits).
-- Vicious (Defenders suffer [-2] to their Panic Tests).</description>
+      <description>- Critical Blow (Rolls of 6 cause 2 Hits).
+- Vicious (Defenders suffer -2 to their Panic Tests).</description>
     </rule>
     <rule id="7a4e-a35b-ddc8-014a" name="Ferocious Assault" hidden="false">
       <profiles/>
@@ -1221,14 +1221,14 @@ At the start of this unit&apos;s activation, it may make a free Maneuver action.
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>- Vicious (Defenders suffer [-2] to their Panic Tests).</description>
+      <description>- Vicious (Defenders suffer -2 to their Panic Tests).</description>
     </rule>
     <rule id="ffee-5306-1117-4c00" name="Spiked Armor" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When this unit is attacked with melee, for each Defense Save roll of a 6, the attacker suffers [1] Wound.</description>
+      <description>When this unit is attacked with melee, for each Defense Save roll of a 6, the attacker suffers 1 Wound.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
