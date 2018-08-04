@@ -156,7 +156,7 @@
       </constraints>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="5f7e-5515-30d8-48f1" name="Eddard Stark - Lord of Winterfell" hidden="false" targetId="e6c1-d20d-a9c0-1531" type="selectionEntry">
+    <entryLink id="5f7e-5515-30d8-48f1" name="Eddard Stark - Lord of Winterfell" hidden="false" targetId="40e0-1f7b-465d-feaf" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -462,22 +462,6 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="1be5-1c36-3487-e516" name="Eddard&apos;s Honor Guard" hidden="false" targetId="53b3-b517-84ba-8b1c" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="append" field="name" value="(requires Eddard Stark - Lord of Winterfell)">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5f7e-5515-30d8-48f1" type="lessThan"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
     <entryLink id="9aec-583c-2158-d3dd" name="Brienne - Maid of Tarth" hidden="false" targetId="9397-5e0a-323b-772c" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -599,6 +583,22 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="bf04-c173-c0da-9fe8" name="Eddard&apos;s Honor Guard" hidden="false" targetId="abca-a0eb-1dcd-15f5" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="append" field="name" value="(requires Eddard Stark - Lord of Winterfell)">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="40e0-1f7b-465d-feaf" type="lessThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks/>
     </entryLink>
@@ -1183,63 +1183,6 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e6c1-d20d-a9c0-1531" name="Eddard Stark - Lord of Winterfell" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="07ad-f6fb-1432-8a3e" name="Order: For the North!" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Know the men who follow you and let them know you. Don&apos;t ask your men to die for a stranger.&quot;"/>
-            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit makes a Melee attack: 1 friendly unit within Long Range may restore up to 2 Wounds."/>
-            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
-          </characteristics>
-        </profile>
-        <profile id="2704-89ab-ddf9-2aaa" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Fury for the Fallen  - Lead by Example  - Northern Defiance"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="de93-f91d-7079-b16b" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="ad3f-cedd-ea9d-6055" name="New CategoryLink" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="7bf3-f521-a34f-5c79" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e3f8-f005-25fb-dbb0" name="Greatjon Umber - Fearless Bannerman" hidden="false" collective="false" type="upgrade">
@@ -2138,9 +2081,9 @@
         <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="53b3-b517-84ba-8b1c" name="Eddard&apos;s Honor Guard" hidden="false" collective="false" type="unit">
+    <selectionEntry id="abca-a0eb-1dcd-15f5" name="Eddard&apos;s Honor Guard" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="1c2e-cf5b-53d5-d493" name="Eddard&apos;s Honor Guard" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+        <profile id="01e3-1a25-51da-fe4e" name="Eddard&apos;s Honor Guard" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2151,7 +2094,7 @@
             <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="6+"/>
           </characteristics>
         </profile>
-        <profile id="69d1-c8b4-74a6-05a4" name="Stark Fury" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+        <profile id="08ae-248a-334a-d1ee" name="Stark Fury" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2166,14 +2109,14 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="5178-8af8-de13-dc54" name="Description" hidden="false">
+        <rule id="775f-8875-7708-6efb" name="Description" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Chosen men from House Stark&apos;s own ranks, Lord Eddard Stark&apos;s honor guard have proven themselves as warriors of the highest integrity. They can be relied upon to hold the field against long odds, and dish out punishment as well as they can take it. Every man would willingly lay down his life for their lord, all the more so as Lord Eddard Stark would do the same. One can rely on the Honor Guard as a more-than-capable vanguard to any Stark force.</description>
         </rule>
-        <rule id="25d1-4650-f718-b43d" name="Character" hidden="false">
+        <rule id="6900-4ca5-3b92-f124" name="Character" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2182,13 +2125,13 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="4fe6-5dae-1946-04f2" name="Stark Fury" hidden="false" targetId="70a3-f71e-01ff-1e32" type="rule">
+        <infoLink id="9f28-8993-2365-d089" name="Stark Fury" hidden="false" targetId="70a3-f71e-01ff-1e32" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="e5d8-3c00-3084-393b" name="Fearless" hidden="false" targetId="4ace-5dad-25a3-a29a" type="rule">
+        <infoLink id="9b71-1165-94a7-2638" name="Fearless" hidden="false" targetId="4ace-5dad-25a3-a29a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2198,14 +2141,14 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="955b-b070-e28e-f103" name="House Stark" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+        <categoryLink id="51ee-6be7-1c7f-65b5" name="House Stark" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="a398-8b6f-93ea-160d" name="Infantry Unit" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
+        <categoryLink id="38ff-20be-d7c5-f076" name="Infantry Unit" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2218,6 +2161,63 @@
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="40e0-1f7b-465d-feaf" name="Eddard Stark - Lord of Winterfell" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9695-5458-fabe-f7fc" name="Order: For the North!" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Attachment Card">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;Know the men who follow you and let them know you. Don&apos;t ask your men to die for a stranger.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit makes a Melee attack: 1 friendly unit within Long Range may restore up to 2 Wounds."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="11b5-3b5e-159c-3984" name="Character" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Fury for the Fallen  - Lead by Example  - Northern Defiance"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ca42-7da1-10bb-6a26" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6f07-a765-cfa9-aa8c" name="New CategoryLink" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b9e3-d931-4ced-a322" name="New CategoryLink" hidden="false" targetId="db1b-c534-0578-5305" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

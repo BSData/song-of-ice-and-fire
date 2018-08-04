@@ -5,17 +5,7 @@
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
-  <categoryEntries>
-    <categoryEntry id="88a7-8170-8a56-3e24" name="Jaime" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8e03-4c88-e1f6-55ec" type="max"/>
-      </constraints>
-    </categoryEntry>
-  </categoryEntries>
+  <categoryEntries/>
   <forceEntries>
     <forceEntry id="12bd-9dd4-d317-0438" name="House Lannister" hidden="false">
       <profiles/>
@@ -235,14 +225,27 @@
       </constraints>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="1ece-598b-09ca-b103" name="Ser Jaime Lannister - The Kingslayer" hidden="false" targetId="ca2d-92a6-6e4e-28a5" type="selectionEntry">
+    <entryLink id="1ece-598b-09ca-b103" name="Jaime Lannister - The Kingslayer" hidden="false" targetId="ca2d-92a6-6e4e-28a5" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="605e-0c92-4bab-04c8" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d56-5391-f4ed-ecb1" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eeca-31e5-dbc1-2423" type="max"/>
-        <constraint field="b577-9152-be95-5bbf" scope="88a7-8170-8a56-3e24" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="53ff-7141-2d64-0bfa" type="max"/>
       </constraints>
       <categoryLinks/>
     </entryLink>
@@ -264,11 +267,25 @@
       </constraints>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="9a54-b8bc-9562-8ad6" name="Ser Jaime Lannister - The Young Lion" hidden="false" targetId="7d56-5391-f4ed-ecb1" type="selectionEntry">
+    <entryLink id="9a54-b8bc-9562-8ad6" name="Jaime Lannister - The Young Lion" hidden="false" targetId="7d56-5391-f4ed-ecb1" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="605e-0c92-4bab-04c8" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca2d-92a6-6e4e-28a5" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ba33-4cdb-309a-f67a" type="max"/>
       </constraints>
@@ -512,6 +529,30 @@
       <infoLinks/>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="8e2b-7659-8f90-e1d5" name="Jaime Lannister - Maimed Hostage" hidden="false" targetId="605e-0c92-4bab-04c8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d56-5391-f4ed-ecb1" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ca2d-92a6-6e4e-28a5" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3dd4-509e-e1be-8702" type="max"/>
+      </constraints>
       <categoryLinks/>
     </entryLink>
   </entryLinks>
@@ -1253,13 +1294,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="4230-1265-12c3-9ca6" name="New CategoryLink" hidden="false" targetId="88a7-8170-8a56-3e24" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="0d45-7a88-6f95-801b" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
           <profiles/>
           <rules/>
@@ -1318,13 +1352,6 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="7939-9b38-6d7a-b0cb" name="New CategoryLink" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="539f-5a42-e7e0-0b0a" name="New CategoryLink" hidden="false" targetId="88a7-8170-8a56-3e24" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1849,6 +1876,66 @@ At the start of this model&apos;s activation, it may take a free Maneuver action
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="605e-0c92-4bab-04c8" name="Jaime Lannister - Maimed Hostage" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="aa8c-57ed-f45c-55ee" name="Valuable Captive" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;What they did to him was unspeakably cruel.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="This model is always the last model destroyed from this unit When this unit is destroyed, it grants +1 additional Victory Point."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="0160-9ac8-4149-1b16" name="Vengeful Captive" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;What they did to him was unspeakable cruel.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="At the end of each of its activations, this unit suffers D3 automatic Hits."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bc76-b642-66a0-d802" name="Character" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Before Deployment, attach Jaime to an enemy Infantry unit, ignoring the usual Attachment restriction.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="dcfa-9ade-1178-1ce1" name="Infantry Unit" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="75d2-0477-6990-d822" name="Unit Attachment" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
