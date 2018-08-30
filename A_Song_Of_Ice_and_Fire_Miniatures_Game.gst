@@ -85,7 +85,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="bebb-415e-f8a1-2190" name="Mercenaries" hidden="false">
+    <categoryEntry id="bebb-415e-f8a1-2190" name="Neutral" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -125,7 +125,7 @@
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="b8ca-af6a-433d-dfb4" name="Mercenaries Allies" hidden="false">
+    <forceEntry id="b8ca-af6a-433d-dfb4" name="Neutral" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -508,14 +508,14 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1249-bfcd-2f7d-7983" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="34b7-93b6-0e1b-3c45" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="false">
+        <categoryLink id="34b7-93b6-0e1b-3c45" name="New CategoryLink" hidden="false" targetId="2460-6433-340e-5689" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="4fdd-a17a-467a-aebb" name="Mercenaries" hidden="false" targetId="bebb-415e-f8a1-2190" primary="true">
+        <categoryLink id="4fdd-a17a-467a-aebb" name="Mercenaries" hidden="false" targetId="bebb-415e-f8a1-2190" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
