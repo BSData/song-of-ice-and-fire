@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="13c3-f466-60af-6992" name="Night&apos;s Watch" revision="1" battleScribeVersion="2.01" authorName="Jeremy Sadler" authorContact="jmsadler@gmail.com" gameSystemId="2264-d446-544f-f0ab" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries>
+    <categoryEntry id="6647-a675-bec1-e23d" name="Night&apos;s Watch" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+  </categoryEntries>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="27cc-aa4a-2bed-4754" name="Watch Captain" hidden="false" targetId="53a1-a2f7-2039-ce1f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e27b-bd8f-ec37-2489" name="Brienne - Maid of Tarth" hidden="false" targetId="9397-5e0a-323b-772c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4600-e490-f963-bd85" name="Bronn - The Sellsword" hidden="false" targetId="dd99-2b45-ee55-f48f" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="cbb2-4e74-8458-322e" name="Dreadfort Captain" hidden="false" targetId="d21f-61ff-f81f-e6bb" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="74fb-629f-be89-15ce" name="House Bolton Bastard&apos;s Girls" hidden="false" targetId="68b1-4176-1eab-1b98" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="b8da-7f52-a9df-f7df" name="House Bolton Blackguards" hidden="false" targetId="701c-9c88-a9ce-a01a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="0f7a-6c01-ebba-18aa" name="House Bolton Cutthroats" hidden="false" targetId="4736-569b-81e4-13e8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="eb14-0c70-0b7c-99e6" name="House Bolton Flayed Men" hidden="false" targetId="c9f7-9e3a-65c3-d1be" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e5d0-b5fd-334a-cbc5" name="Lord Varys - The Spider" hidden="false" targetId="737f-b44f-174b-c943" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6b2d-edfb-604f-e129" name="Petyr Baelish - Littlefinger" hidden="false" targetId="9209-90d9-c752-1843" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2733-c389-89e7-39d5" name="Ramsay Snow - Sadist" hidden="false" targetId="9b41-fa40-807a-e13b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="53a1-a2f7-2039-ce1f" name="Watch Captain" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8b31-341c-7ba9-87bf" name="And Now My Watch Begins" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="Watch Captain"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="At the start of Round 1, reveal the top 3 cards of your Tactics Deck. You may select 1 Vow card from among them and attach it to this unit. Return the rest to your Tactics Deck and then shuffle"/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c8b1-06e1-253e-b4e3" name="Unbreakable Vows" hidden="false" targetId="5a89-baee-99fa-eb18" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="aebf-2cd7-4b93-7610" name="Unit Attachment" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2f2a-81b6-f4c0-527c" name="Night&apos;s Watch" hidden="false" targetId="6647-a675-bec1-e23d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5798-d4e3-bc9b-e590" name="Sworn Brothers" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="b850-6f8f-e7d6-fb44" name="Greatsword" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="7"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="5"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="4"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+        <profile id="cd37-cf30-49b2-1f38" name="Sworn Brothers" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="4+"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="6+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e0dd-9abd-087e-cf76" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>As the mainstay of the Night&apos;s Watch forces, the Sworn Brothers face Wildlings, and other northern terrors with stoicism and reserve born of long-training and solid gear. Indeed, having their own forges and smiths allows the average Brother a better kit than the average foot soldier belonging to most great houses (except House Lannister, of course). Sworn Brothers can be relied upon to hold the line, almost regardless of the odds.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1e6f-58f7-993a-31c1" name="Greatsword" hidden="false" targetId="771f-76b0-7235-1fd6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="339b-030d-276f-7405" name="Infantry Unit" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d49f-ae5e-fceb-e2e4" name="Night&apos;s Watch" hidden="false" targetId="6647-a675-bec1-e23d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="019a-e0fd-c55a-f648" name="Ranger Hunters" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7633-fffd-d6f8-a315" name="Short Bow" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="7"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="6"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="5"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Ranged"/>
+          </characteristics>
+        </profile>
+        <profile id="72c4-82fb-6100-8c0d" name="Swift Strike" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="7"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="6"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="5"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+        <profile id="5cbc-7f0c-fc97-4733" name="Ranger Hunters" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="6"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="5+"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="6+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0a32-3920-4e12-10ca" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Often working hand-in-hand with Ranger Trackers, Ranger Hunters specialize in eliminating critical targets on the battlefield. While stealth is rarely an option in open battle, Hunters strike suddenly, exploiting weakened or vulnerable enemies, often eliminating them to a man before any serious resistance can mount. However, as with all light infantry, being bogged down in an extended melee can prove fatal, something any commander should avoid.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0d33-7474-db3d-2e62" name="Short Bow" hidden="false" targetId="a604-8835-83eb-c481" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5b1b-11a6-da57-d5c2" name="Swift Strike" hidden="false" targetId="f147-8c5a-2cc1-8e28" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5003-50d5-20e0-ce9e" name="Opportunist" hidden="false" targetId="8b0d-30d5-b6a7-9b60" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d25a-6c5d-283a-f258" name="Infantry Unit" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9953-1876-5385-4fa9" name="Night&apos;s Watch" hidden="false" targetId="6647-a675-bec1-e23d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c7d5-2576-dc27-f996" name="Veterans of the Watch" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f029-89b7-de9d-7d4f" name="Veterans of the Watch" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="5"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="3"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="5"/>
+          </characteristics>
+        </profile>
+        <profile id="f9a6-aead-f7a3-31e3" name="Dual Weapons" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="8"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="7"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="6"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d1f1-ce2a-7920-1e30" name="Order: Counterattack" hidden="false" targetId="5a9b-25f7-2a20-1a18" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="867a-da60-53de-5051" name="Infantry Unit" hidden="false" targetId="7ae7-192e-b4b9-62de" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d73d-5f37-ea10-5db6" name="Night&apos;s Watch" hidden="false" targetId="6647-a675-bec1-e23d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d666-68dd-236d-796c" name="Jeor Mormont - 997th Lord Commander" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="da40-8d3b-ed95-7321" name="Jeor Mormont - 997th Lord Commander" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- Duty to the Watch - Night Gathers... - Unwavering Conviction"/>
+          </characteristics>
+        </profile>
+        <profile id="9cd6-ec68-bca6-7a7e" name="Oath of the Black" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;When dead men come hunting in the night, do you think it matters who sits the Iron Throne?&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit activates, it may discard an attached Vow Tactic Card and replace it with a different Vow Tactic Card from your discard pile."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1ff-91ca-44af-3f87" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cd05-5576-ad6f-71b1" name="Commander" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2536-a894-16ce-d99d" name="Night&apos;s Watch" hidden="false" targetId="6647-a675-bec1-e23d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a8c7-51c7-9657-8f1c" name="Jon Snow - 998th Lord Commander" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="03ff-9a33-a11b-ad4e" name="Jon Snow - 998th Lord Commander" hidden="false" profileTypeId="f537-3fe1-4bfb-be4b" profileTypeName="Tactical Cards">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Cards" characteristicTypeId="edf4-ce00-def2-83b6" value="- For the Watch! - It Shall Not End Until My Death - Stand United, Brothers!"/>
+          </characteristics>
+        </profile>
+        <profile id="92cb-e3d7-1199-ec95" name="Bond: Ghost" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;There&apos;s no shame in fear, my father told me, what matters is how we face it.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit activates, Ghost may activate before or after this unit takes its action."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f961-de14-43cb-b3a7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2f21-ec34-a72f-0cf6" name="Commander" hidden="false" targetId="2541-1bd5-5d40-1192" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4a6d-7006-cbfe-674f" name="Night&apos;s Watch" hidden="false" targetId="6647-a675-bec1-e23d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb4b-405d-0cf4-8740" name="Aemon - Maester of Castle Black" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="eea2-7ea2-892b-0d3e" name="Aemon - Maester of Castle Black" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="Non-Combatant Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;Knowledge is a weapon, Jon. Arm yourself well before you ride forth to battle.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e46f-a676-5458-ddcf" name="Maester&apos;s Healing" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When Aemon claims a zone on the Tactics Board, you may restore up to 1 Wound to a friendly unit +1 additional Wound per destroyed rank in that unit.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c58-37ed-ed01-e106" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c9ea-8822-25b8-8c57" name="Night&apos;s Watch" hidden="false" targetId="6647-a675-bec1-e23d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0ce1-9eef-5463-6547" name="Non-Combatant Unit" hidden="false" targetId="9c52-387e-c59a-a747" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b5b-09c4-286e-89ba" name="Bowen Marsh - First Steward" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="edd9-5d03-d373-80de" name="Bowen Marsh - First Steward" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="Non-Combatant Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;For the Watch.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8054-899e-d104-8934" name="Counts and Measures" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When Bowen claims a zone on the Tactics Board, you may look at the top 2 cards of your Tactics Deck. Place 1 of those cards in your hand and the other on the bottom of your Tactics Deck.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d47-133d-de12-2839" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7f03-eb44-fa54-4798" name="Non-Combatant Unit" hidden="false" targetId="9c52-387e-c59a-a747" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7169-c8e6-216c-4841" name="Night&apos;s Watch" hidden="false" targetId="6647-a675-bec1-e23d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="361a-1222-1fa0-a5b5" name="Ghost" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="cfef-1f77-a530-234e" name="Silent Predator" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="2"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="2+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+        <profile id="42b1-9084-1165-517a" name="Ghost" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="6"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="3+"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="2+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bfa8-d410-b8b6-7add" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The albino direwolf known as Ghost could not be more aptly named, trailing in Jon Snow&apos;s wake like an ominous shadow. On the battlefield, Ghost ranges more or less freely, having an instinctive grasp of his master&apos;s will. Capable of shocking speed and rending through armor with his powerful jaws, Ghost operates best as a flanker or in pursuit of broken troops. Indeed, the sight of a charging direwolf is enough to shake most men to their core.</description>
+        </rule>
+        <rule id="a564-7f4d-a875-7186" name="Character" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>May only fielded in an army including Jon Snow.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="270b-1e29-a8d3-cc76" name="Direwolf" hidden="false" targetId="a559-1afa-8c95-c2c1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b3d4-72a5-d55a-f147" name="Silent Predator" hidden="false" targetId="be77-173a-56a8-2177" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="append" field="name" value="(Requires Jon Snow)">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a8c7-51c7-9657-8f1c" type="lessThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cac-048e-57fe-1044" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="51db-c517-b76a-4bda" name="Monster" hidden="false" targetId="046c-b849-cb68-2b74" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="234a-3313-d1ec-82ac" name="Night&apos;s Watch" hidden="false" targetId="6647-a675-bec1-e23d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d3ed-b182-dbea-f261" name="Craster - Ally of Convenience" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="663b-403e-4777-f4d3" name="Craster - Ally of Convenience" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="Non-Combatant Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;He&apos;s never turned a ranger away from his fire, nor does he love Mance Rayder...&quot;"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e817-8026-7e0c-0594" name="Character" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Craster may be included in a Night&apos;s Watch army.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="085a-0e99-28c4-04ad" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1ae5-eba2-1e88-b7e8" name="Non-Combatant Unit" hidden="false" targetId="9c52-387e-c59a-a747" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="835e-3153-9cbc-4044" name="Night&apos;s Watch" hidden="false" targetId="6647-a675-bec1-e23d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7540-6f07-f217-2375" name="Free Folk" hidden="false" targetId="f8b9-2189-64a5-cac0" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9841-44bf-e6ca-b342" name="Ranger Trackers" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="cf69-41ff-e838-5c43" name="Recurve Bow" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="7"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="4"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value=""/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Ranged"/>
+          </characteristics>
+        </profile>
+        <profile id="5b3f-9be5-f1b7-8d24" name="Short Sword" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="6"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value="3"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61" value="-"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="4+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Melee"/>
+          </characteristics>
+        </profile>
+        <profile id="2a57-0c49-b179-96fc" name="Ranger Trackers" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="6"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="5+"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="6+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bd79-81e2-03cb-183a" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Night&apos;s Watch Rangers employ many units of varying skill sets, but their eyes are embodied by the Trackers. As dedicated scouting cavalry, Trackers are charged with providing intelligence on enemy strength, numbers, and location. On the battlefield their expertise extends to determining enemies in vulnerable positions. Wise commanders will heed their counsel, and position troops to exploit such weaknesses accordingly.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="eaf2-d1eb-fb8b-dd20" name="Order: Mark Target" hidden="false" targetId="2ac7-ac81-b0cc-f329" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="14eb-e19b-8734-9f31" name="Cavalry" hidden="false" targetId="56ab-31ff-2708-c161" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="00f4-2f8c-98ee-049b" name="Recurve Bow" hidden="false" targetId="ecbf-0cbc-2e79-3efc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ad85-5242-609f-d495" name="Night&apos;s Watch" hidden="false" targetId="6647-a675-bec1-e23d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d725-68b1-4e22-fad0" name="Cavalry Unit" hidden="false" targetId="ea8e-f716-950b-84c2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dec8-71f8-6931-10fb" name="Jon Snow - Lord Snow" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ddd4-dfbc-fe2c-959f" name="Bond: Ghost" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;There&apos;s no shame in fear, my father told me, what matters is how we face it.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit activates, Ghost may activate before or after this unit takes its action."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="3927-8668-1227-8381" name="Boldness and Courage" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="&quot;The only gods he worshipped were honor and duty.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit makes a Melee Attack, it is always treated as having 1 additional rank. If it already has full ranks, it rolls +2 attack dice."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4708-529a-f823-2319" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ea97-c235-88ef-bc1b" name="Night&apos;s Watch" hidden="false" targetId="6647-a675-bec1-e23d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ef03-804c-111d-69c9" name="Unit Attachment" hidden="false" targetId="2460-6433-340e-5689" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d759-885d-f2fc-ec94" name="Jeor Mormont - The Old Bear" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="3469-8b3e-3cab-988c" name="Jeor Mormont - The Old Bear" hidden="false" profileTypeId="f83a-0c1a-d235-e07e" profileTypeName="Non-Combatant Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="6d08-9f7d-1100-7e00" value="&quot;The Wall was made to guard the realms of men... and not against other men.&quot;"/>
+            <characteristic name="Power" characteristicTypeId="095c-6bd5-1bee-1cf8"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a32d-fe5e-0817-2472" name="Oath of Duty" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Influence (When this unit claims a Tactics Zone, attach this card to a Combat Unit until the end of the round.)
+While Influencing a unit, you count as controlling all Tactics Zones for any Vow effects on that unit.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96a7-53ea-4316-91a9" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="079c-560c-6177-67c2" name="Night&apos;s Watch" hidden="false" targetId="6647-a675-bec1-e23d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3a7c-bfb5-b36b-5ce2" name="Non-Combatant Unit" hidden="false" targetId="9c52-387e-c59a-a747" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5260-f1f1-e97c-d9ca" name="Builder Scorpion Crew" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="d386-5c4e-52b7-81b8" name="Builder Scorpion Crew" hidden="false" profileTypeId="e3e9-9e7b-99e0-c84a" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Speed" characteristicTypeId="d643-93f4-a74b-3500" value="4"/>
+            <characteristic name="Defense" characteristicTypeId="db7e-43bc-c2ac-0ee8" value="5+"/>
+            <characteristic name="Morale" characteristicTypeId="800e-8f16-2151-314e" value="-"/>
+          </characteristics>
+        </profile>
+        <profile id="de6d-07dd-499f-2a47" name="Bolt Thrower (Volley Fire)" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="3"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099" value=""/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="3+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Ranged"/>
+          </characteristics>
+        </profile>
+        <profile id="66e6-61d7-2dc6-5f4e" name="Builder Scorpion Crew" hidden="false" profileTypeId="8088-4029-2853-6c54" profileTypeName="Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Attack Dice Rank1" characteristicTypeId="6916-aa21-d32a-298d" value="1"/>
+            <characteristic name="Attack Dice Rank2" characteristicTypeId="a1ab-fd28-f44e-0099"/>
+            <characteristic name="Attack Dice Rank3" characteristicTypeId="1909-da8b-a3a5-bb61"/>
+            <characteristic name="To Hit Value" characteristicTypeId="5c8f-e075-c8eb-1eb4" value="2+"/>
+            <characteristic name="Type" characteristicTypeId="0df2-f7b3-3263-b4c7" value="Ranged"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6fab-ebe7-38a4-5bdb" name="Description" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Night&apos;s Watch Builders are known for their ingenuity, and none embodies this more than the Builder Scorpion Crew. With just a few specialized parts, and enough available timer, the Crew can construct a mobile Scorpion, capable of firing massive bolts at long range and with surpirising accuracy. Entire ranks can be cut down by a single projective. However the Scorpion itself requires time to reposition, and it moves very slowly.</description>
+        </rule>
+        <rule id="7741-155c-6155-be06" name="War Machine" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model has 6 wounds.
+This model never makes Morale Tests, cannot Charge or Retreat, and cannot gain Condition Tokens.</description>
+        </rule>
+        <rule id="fba6-777e-b0d1-f66e" name="Bolt Thrower" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>- Long Range
+- May not Shift before Attack.
+- Sundering (Defenders suffer -2 to Defense Save rolls)
+- Volley: each success deals 3 hits.
+- Single: If this generates any Hits on a Solo unit, instead of rolling Wound Dice, they suffer D3 +1 Wounds.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="673e-d0a3-aeed-c005" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="dab1-ce7e-57d2-33b7" name="War Machine" hidden="false" targetId="1c00-c38c-112d-04d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="505d-5066-8c49-af2d" name="Night&apos;s Watch" hidden="false" targetId="6647-a675-bec1-e23d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="7.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups/>
+  <sharedRules>
+    <rule id="5a89-baee-99fa-eb18" name="Unbreakable Vows" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit may have 2 attached Vows.</description>
+    </rule>
+    <rule id="771f-76b0-7235-1fd6" name="Greatsword" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>- Critical Blow (Rolls of 6 cause 2 Hits)
+- Sundering (Defenders suffer -1 to their Defense Save rolls)</description>
+    </rule>
+    <rule id="a604-8835-83eb-c481" name="Short Bow" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>- Short Range</description>
+    </rule>
+    <rule id="f147-8c5a-2cc1-8e28" name="Swift Strike" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="2ac7-ac81-b0cc-f329" name="Order: Mark Target" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Start of a friendly turn: 1 enemy within Line of Sight and Long Range becomes Vulnerable.</description>
+    </rule>
+    <rule id="ecbf-0cbc-2e79-3efc" name="Recurve Bow" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>- Short Range</description>
+    </rule>
+    <rule id="5a9b-25f7-2a20-1a18" name="Order: Counterattack" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this unit is attacked with melee, after Attack dice are rolled:
+For each blocked Hit, the attacker suffers 1 automatic Hit.</description>
+    </rule>
+    <rule id="02cf-789b-91aa-778a" name="Order: Indomitable" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this unit passes a Morale Test:
+This unit may restore up to D3 Wounds.</description>
+    </rule>
+    <rule id="a559-1afa-8c95-c2c1" name="Direwolf" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This model has 2 Wounds.
+At the start of this model&apos;s activation, it may make a free Maneuver action.</description>
+    </rule>
+    <rule id="be77-173a-56a8-2177" name="Silent Predator" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this attack is selected, enemies may not play Tactics cards for the rest of the turn. Enemies do not get Defense Saves against this attack.</description>
+    </rule>
+    <rule id="8b0d-30d5-b6a7-9b60" name="Opportunist" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If this unit attacks an enemy that has not activated this round, it may re-roll any misses.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
