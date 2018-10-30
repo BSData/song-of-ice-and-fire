@@ -555,6 +555,14 @@
       </constraints>
       <categoryLinks/>
     </entryLink>
+    <entryLink id="9993-db92-69d2-8c8e" name="Champion of the Faith" hidden="false" targetId="90d5-ffec-d511-ee32" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="b842-189d-a02d-9626" name="Knights of Casterly Rock" hidden="false" collective="false" type="unit">
@@ -1936,6 +1944,47 @@ At the start of this model&apos;s activation, it may take a free Maneuver action
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="90d5-ffec-d511-ee32" name="Champion of the Faith" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="b158-d3f1-b08b-36c6" name="Order: Stand Resolute" hidden="false" profileTypeId="d334-56b1-a4d9-21a9" profileTypeName="Unit Attachment">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="fc57-3aeb-b382-7d2c" value="Champion of the Faith"/>
+            <characteristic name="Power" characteristicTypeId="0338-614a-a64b-fcd6" value="When this unit passes a Morale Test: All enemies engaged with this unit become Vulnerable."/>
+            <characteristic name="Type" characteristicTypeId="3f8a-4023-04b2-205f" value="Infantry"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8391-8bc3-b8c7-167c" name="House Lannister" hidden="false" targetId="1458-5528-7b7a-e727" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3394-a754-bec1-ac84" name="Non-Combatant Unit" hidden="false" targetId="9c52-387e-c59a-a747" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b577-9152-be95-5bbf" value="1.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
